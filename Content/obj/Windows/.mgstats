@@ -1,6 +1,8 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/lukas/source/repos/TheJam/TheJam/Content/Arial.spritefont","C:/Users/lukas/source/repos/TheJam/TheJam/Content/bin/Windows/Arial.xnb","FontDescriptionProcessor","SpriteFontContent",2008,37905,0.2427202
-"C:/Users/lukas/source/repos/TheJam/TheJam/Content/black.png","C:/Users/lukas/source/repos/TheJam/TheJam/Content/bin/Windows/black.xnb","TextureProcessor","Texture2DContent",120,89,0.0128263
-"C:/Users/lukas/source/repos/TheJam/TheJam/Content/button.png","C:/Users/lukas/source/repos/TheJam/TheJam/Content/bin/Windows/button.xnb","TextureProcessor","Texture2DContent",62294,640085,0.0187469
-"C:/Users/lukas/source/repos/TheJam/TheJam/Content/John.jpg","C:/Users/lukas/source/repos/TheJam/TheJam/Content/bin/Windows/John.xnb","TextureProcessor","Texture2DContent",7247,201485,0.006907
-"C:/Users/lukas/source/repos/TheJam/TheJam/Content/Placeholder.jpg","C:/Users/lukas/source/repos/TheJam/TheJam/Content/bin/Windows/Placeholder.xnb","TextureProcessor","Texture2DContent",5765,262229,0.0098476
+"C:/Users/lukas/source/repos/TheJam/TheJam/Content/Arial.spritefont","C:/Users/lukas/source/repos/TheJam/TheJam/Content/bin/Windows/Arial.xnb","FontDescriptionProcessor","SpriteFontContent",2008,37905,0.2264318
+"C:/Users/lukas/source/repos/TheJam/TheJam/Content/black.png","C:/Users/lukas/source/repos/TheJam/TheJam/Content/bin/Windows/black.xnb","TextureProcessor","Texture2DContent",120,89,0.0117138
+"C:/Users/lukas/source/repos/TheJam/TheJam/Content/button.png","C:/Users/lukas/source/repos/TheJam/TheJam/Content/bin/Windows/button.xnb","TextureProcessor","Texture2DContent",62294,640085,0.0156166
+"C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/snövärd bg12.png","C:/Users/lukas/source/repos/TheJam/TheJam/Content/bin/Windows/Estetiska/snövärd bg12.xnb","TextureProcessor","Texture2DContent",1065,65621,0.0039046
+"C:/Users/lukas/source/repos/TheJam/TheJam/Content/John.jpg","C:/Users/lukas/source/repos/TheJam/TheJam/Content/bin/Windows/John.xnb","TextureProcessor","Texture2DContent",7247,201485,0.00488
+"C:/Users/lukas/source/repos/TheJam/TheJam/Content/piggo.png","C:/Users/lukas/source/repos/TheJam/TheJam/Content/bin/Windows/piggo.xnb","TextureProcessor","Texture2DContent",288,1109,0.0009765
+"C:/Users/lukas/source/repos/TheJam/TheJam/Content/Placeholder.jpg","C:/Users/lukas/source/repos/TheJam/TheJam/Content/bin/Windows/Placeholder.xnb","TextureProcessor","Texture2DContent",5765,262229,0.0087837

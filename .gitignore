@@ -7,3 +7,16 @@ bin/Debug/netcoreapp3.1/TheJam.pdb
 bin/Debug/netcoreapp3.1/TheJam.dll
 *.pdb
 *.dll
+*.mgcontent
+*.mgcontent
+obj/Debug/netcoreapp3.1/TheJam.pdb
+obj/Debug/netcoreapp3.1/TheJam.dll
+obj/Debug/netcoreapp3.1/TheJam.csproj.FileListAbsolute.txt
+Content/obj/Windows/Placeholder.mgcontent
+Content/obj/Windows/John.mgcontent
+Content/obj/Windows/Content/.mgstats
+Content/obj/Windows/button.mgcontent
+Content/obj/Windows/Content/.mgcontent
+Content/obj/Windows/black.mgcontent
+Content/obj/Windows/Arial.mgcontent
+*.mgcontent

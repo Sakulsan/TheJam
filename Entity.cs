@@ -26,12 +26,12 @@ namespace TheJam
             this.collision = collision;
             this.sprite = sprite;
             this.game = game;
-            drawPosition = new Rectangle(0, 0, 64, 64);
+            drawPosition = new Rectangle(x * game.scale, y * game.scale, game.scale, game.scale);
         }
 
         public virtual void Update(GameTime gt, List<Entity> enties)
         {
-            drawPosition = new Rectangle(x * 64, y * 64, 64, 64);
+            drawPosition = new Rectangle(x * game.scale, y * game.scale, game.scale, game.scale);
         }
 
         public void Draw(SpriteBatch sb)

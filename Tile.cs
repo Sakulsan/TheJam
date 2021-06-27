@@ -19,7 +19,11 @@ namespace TheJam
         public override void Update(GameTime gt, List<Entity> enties)
         {
             Entity player = enties.Find(test => test is Player);
-            if ( player.x == x && player.y == y) game.zoneCoordinates = new Point(leaveX, leaveY);
+            if (player.x == x && player.y == y)
+            {
+                game.fadeGaol = 255 * 5;
+                game.zoneCoordinates = new Point(leaveX, leaveY);
+            }
 
             base.Update(gt, enties);
         }

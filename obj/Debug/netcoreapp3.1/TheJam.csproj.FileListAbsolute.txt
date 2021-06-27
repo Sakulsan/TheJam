@@ -37,3 +37,5 @@ C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Placeh
 C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Arial.xnb
 C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\button.xnb
 C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\black.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\piggo.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\snövärd bg12.xnb
