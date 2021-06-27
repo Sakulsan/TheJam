@@ -1,1 +1,6 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/Arial.spritefont","C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/bin/Windows/Content/Arial.xnb","FontDescriptionProcessor","SpriteFontContent",2068,37922,0,3781758
+"C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/black.png","C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/bin/Windows/Content/black.xnb","TextureProcessor","Texture2DContent",120,89,0,0135661
+"C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/button.png","C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/bin/Windows/Content/button.xnb","TextureProcessor","Texture2DContent",62294,640085,0,0338849
+"C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/John.jpg","C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/bin/Windows/Content/John.xnb","TextureProcessor","Texture2DContent",7247,201485,0,0150692
+"C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/Placeholder.jpg","C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/bin/Windows/Content/Placeholder.xnb","TextureProcessor","Texture2DContent",5765,262229,0,0158624
