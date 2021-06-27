@@ -13,12 +13,14 @@ namespace TheJam
         public Texture2D pixel;
         public List<Entity> entities = new List<Entity>();
         public SpriteFont arial;
+
         public bool texting;
 
         public int fadeGaol = 0;
         public int fadethrough = 0;
 
         public int scale = 128;
+        public int offset = 0;
 
         public Map[,] currentZone = new Map[3,3];
         public Point zoneCoordinates = new Point(1, 2);
@@ -34,6 +36,12 @@ namespace TheJam
         {
             // TODO: Add your initialization logic here
             IsMouseVisible = false;
+
+            _graphics.PreferredBackBufferHeight = 1080;
+            _graphics.PreferredBackBufferWidth = 1920;
+            _graphics.ApplyChanges();
+
+
 
             Window.AllowUserResizing = true;
             base.Initialize();
@@ -123,6 +131,7 @@ namespace TheJam
         {
             Map[,] v = new Map[3, 3];
             //generates a makeshift map
+            Texture2D nothing = Content.Load<Texture2D>("Nothing");
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 3; j++)
@@ -130,6 +139,12 @@ namespace TheJam
                     Map generating = new Map(new List<Entity>(), Content.Load<Texture2D>("Placeholder"));
                     generating.entities.Add(new Player(1, 1, Content.Load<Texture2D>("piggo"), this));
                     generating.entities.Add(new TouchEntity(4, 0, 5, true, Content.Load<Texture2D>("Button"), TouchEntity.Effects.Textbox, "Hello world", this));
+                    
+                    for (int u = 0; u < 9; u++) generating.entities.Add(new Entity(-1, u, 0, true, nothing, this));
+                    for (int u = 0; u < 8; u++) generating.entities.Add(new Entity(u, -1, 0, true, nothing, this));
+                    for (int u = 0; u < 9; u++) generating.entities.Add(new Entity(8, u, 0, true, nothing, this));
+                    for (int u = 0; u < 8; u++) generating.entities.Add(new Entity(u, 8, 0, true, nothing, this));
+
 
                     v[i, j] = generating;
                 }
