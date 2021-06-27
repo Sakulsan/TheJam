@@ -5,3 +5,5 @@ obj/Debug/netcoreapp3.1/TheJam.csprojAssemblyReference.cache
 obj/Debug/netcoreapp3.1/TheJam.csproj.FileListAbsolute.txt
 bin/Debug/netcoreapp3.1/TheJam.pdb
 bin/Debug/netcoreapp3.1/TheJam.dll
+*.pdb
+*.dll

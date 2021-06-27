@@ -89,7 +89,7 @@ namespace TheJam
 
 
             foreach (Entity e in currentZone[zoneCoordinates.X,zoneCoordinates.Y].entities) e.Draw(_spriteBatch);
-            if (fadethrough != 0) _spriteBatch.Draw(pixel, new Vector2(0, 0), new Rectangle(0, 0, 1, 1), new Color(0, 0, 0, fadethrough), 0f, Vector2.Zero, 600, SpriteEffects.None, 0.6f);
+            if (fadethrough != 0) _spriteBatch.Draw(pixel, new Vector2(0, 0), new Rectangle(0, 0, 1, 1), new Color(0, 0, 0, fadethrough / 300), 0f, Vector2.Zero, 600, SpriteEffects.None, 0.6f);
 
             _spriteBatch.End();
 
