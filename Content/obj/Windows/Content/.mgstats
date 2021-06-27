@@ -1,1 +1,5 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/lukas/source/repos/TheJam/TheJam/Content/Arial.spritefont","C:/Users/lukas/source/repos/TheJam/TheJam/Content/bin/Windows/Content/Arial.xnb","FontDescriptionProcessor","SpriteFontContent",2008,37922,0.218571
+"C:/Users/lukas/source/repos/TheJam/TheJam/Content/button.png","C:/Users/lukas/source/repos/TheJam/TheJam/Content/bin/Windows/Content/button.xnb","TextureProcessor","Texture2DContent",62294,640085,0.1403455
+"C:/Users/lukas/source/repos/TheJam/TheJam/Content/John.jpg","C:/Users/lukas/source/repos/TheJam/TheJam/Content/bin/Windows/Content/John.xnb","TextureProcessor","Texture2DContent",7247,201485,0.1251713
+"C:/Users/lukas/source/repos/TheJam/TheJam/Content/Placeholder.jpg","C:/Users/lukas/source/repos/TheJam/TheJam/Content/bin/Windows/Content/Placeholder.xnb","TextureProcessor","Texture2DContent",748,1109,0.1151095

@@ -32,3 +32,7 @@ C:\Users\lukas\source\repos\TheJam\TheJam\obj\Debug\netcoreapp3.1\TheJam.Assembl
 C:\Users\lukas\source\repos\TheJam\TheJam\obj\Debug\netcoreapp3.1\TheJam.csproj.CopyComplete
 C:\Users\lukas\source\repos\TheJam\TheJam\obj\Debug\netcoreapp3.1\TheJam.dll
 C:\Users\lukas\source\repos\TheJam\TheJam\obj\Debug\netcoreapp3.1\TheJam.pdb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\John.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Placeholder.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Arial.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\button.xnb
