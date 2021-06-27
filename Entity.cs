@@ -31,7 +31,7 @@ namespace TheJam
 
         public virtual void Update(GameTime gt, List<Entity> enties)
         {
-            drawPosition = new Rectangle(x * 64, y * 64, 64, 64);
+            drawPosition = new Rectangle(x * 128, y * 128, 128, 128);
         }
 
         public void Draw(SpriteBatch sb)

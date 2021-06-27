@@ -14,7 +14,9 @@ namespace TheJam
         public List<Entity> entities = new List<Entity>();
         public SpriteFont arial;
         public bool texting;
-        int fadethrough = 1;
+
+        public int fadeGaol = 0;
+        public int fadethrough = 0;
 
         public Map[,] currentZone = new Map[3,3];
         public Point zoneCoordinates = new Point(0, 1);
@@ -64,8 +66,10 @@ namespace TheJam
 
             foreach (Entity e in currentZone[zoneCoordinates.X, zoneCoordinates.Y].entities) e.Update(gameTime, currentZone[zoneCoordinates.X,zoneCoordinates.Y].entities);
 
-            if(fadethrough != 0)fadethrough += gameTime.ElapsedGameTime.Milliseconds / 255;
-            if (fadethrough > 255) fadethrough = 0;
+            if(Keyboard.GetState().IsKeyDown(Keys.F)) fadeGaol = 255 * 5;
+            if (fadeGaol - 20 > fadethrough) fadethrough += gameTime.ElapsedGameTime.Milliseconds;
+            else if (fadeGaol + 20 < fadethrough) fadethrough -= gameTime.ElapsedGameTime.Milliseconds;
+            else if (fadethrough != 0) fadeGaol= 0;
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -85,11 +89,17 @@ namespace TheJam
             //
             //    //
             //}
-            
 
+
+            if (texting) {
+                _spriteBatch.Draw(pixel, new Vector2(32, 32), new Rectangle(0, 0, 1, 1), new Color(0, 0, 0, fadethrough / 5), 0f, Vector2.Zero, 600, SpriteEffects.None, 0.6f);
+            
+            }
 
             foreach (Entity e in currentZone[zoneCoordinates.X,zoneCoordinates.Y].entities) e.Draw(_spriteBatch);
-            if (fadethrough != 0) _spriteBatch.Draw(pixel, new Vector2(0, 0), new Rectangle(0, 0, 1, 1), new Color(0, 0, 0, fadethrough / 300), 0f, Vector2.Zero, 600, SpriteEffects.None, 0.6f);
+            _spriteBatch.DrawString(arial, $"{fadethrough} : {fadeGaol}", Vector2.Zero, Color.Black);
+            if (fadethrough != 0) _spriteBatch.Draw(pixel, new Vector2(32, 32), new Rectangle(0, 0, 1, 1), new Color(0, 0, 0, fadethrough  / 5 ), 0f, Vector2.Zero, 600, SpriteEffects.None, 0.6f);
+            
 
             _spriteBatch.End();
 
@@ -113,8 +123,8 @@ namespace TheJam
             {
                 for (int j = 0; j < 3; j++)
                 {
-                    Map generating = new Map(new List<Entity>(), Content.Load<Texture2D>("Placeholder"));
-                    generating.entities.Add(new Player(1, 1, Content.Load<Texture2D>("John"), this));
+                    Map generating = new Map(new List<Entity>(), Content.Load<Texture2D>(@"Estetiska\snövärd bg12"));
+                    generating.entities.Add(new Player(1, 1, Content.Load<Texture2D>("piggo"), this));
                     generating.entities.Add(new TouchEntity(4, 0, 5, true, Content.Load<Texture2D>("Button"), TouchEntity.Effects.Textbox, "Hello world", this));
 
                     v[i, j] = generating;
