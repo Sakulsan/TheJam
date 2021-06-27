@@ -44,7 +44,7 @@
 /processorParam:TextureFormat=Color
 /build:button.png
 
-#begin Estetiska/snövärld bg 1,1.png
+#begin Estetiska/snövärld bg 0,1.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -54,7 +54,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Estetiska/snövärld bg 1,1.png
+/build:Estetiska/snövärld bg 0,1.png
 
 #begin Estetiska/snövärld bg 1,1.png
 /importer:TextureImporter
@@ -79,6 +79,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Estetiska/snövärld bg 1,2.png
+
+#begin Estetiska/snövärld bg 2,1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Estetiska/snövärld bg 2,1.png
 
 #begin John.jpg
 /importer:TextureImporter
@@ -115,6 +127,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Main Pig/Piggo forward ex 1.png
+
+#begin Main Pig/Standing still.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Main Pig/Standing still.png
 
 #begin Nothing.png
 /importer:TextureImporter
