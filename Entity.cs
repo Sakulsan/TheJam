@@ -60,7 +60,7 @@ namespace TheJam
                     millisLastFrame = 0;
                 }
             }
-            drawPosition = new Rectangle(x * game.scale, y * game.scale, game.scale, game.scale);
+            drawPosition = new Rectangle(x * game.scale + game.offset, y * game.scale, game.scale, game.scale);
         }
 
         public void Draw(SpriteBatch sb)

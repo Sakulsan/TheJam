@@ -11,9 +11,9 @@ namespace TheJam
     {
         public List<Entity> entities;
         public Texture2D background;
-        int frameLength;
-        int currentFrame = 0;
-        int millisLastFrame = 0;        
+        public int frameLength;
+        public int currentFrame = 0;
+        public int millisLastFrame = 0;        
         //Song bgMusic;
 
         public Map(List<Entity> entities, Texture2D background)
