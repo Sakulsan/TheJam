@@ -11,7 +11,7 @@ namespace TheJam
     class Player : Entity
     {
         private KeyboardState oldState;
-        public Player(int x, int y, Texture2D sprite) : base(x, y, 0,false,false, sprite)
+        public Player(int x, int y, Texture2D sprite, Game1 game) : base(x, y, 0,false, sprite, game)
         {
 
 
@@ -29,9 +29,17 @@ namespace TheJam
                 if (!enties.Exists(test => test.collision && test.x == x + 1 && test.y == y)) x++;
             if ((newState.IsKeyDown(Keys.Down) || newState.IsKeyDown(Keys.S)) && !(oldState.IsKeyDown(Keys.Down) ||  oldState.IsKeyDown(Keys.S)))
                 if (!enties.Exists(test => test.collision && test.x == x  && test.y == y + 1)) y++;
-            if ((newState.IsKeyDown(Keys.E)) && !(oldState.IsKeyDown(Keys.E))) ;
-  
-                oldState = newState;
+            if ((newState.IsKeyDown(Keys.E)) && !(oldState.IsKeyDown(Keys.E))) {
+                Entity touched = enties.Find(test => test is TouchEntity &&
+                ((test.x == x - 1 && test.y == y) ||
+                (test.x == x + 1 && test.y == y) ||
+                (test.x == x && test.y == y - 1) ||
+                (test.x == x && test.y == y + 1)));
+
+                if (touched != null) ((TouchEntity)touched).Touch();
+                    }
+
+            oldState = newState;
             base.Update(gt, enties);
         }
     }

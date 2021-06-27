@@ -5,11 +5,13 @@
   <Config />
   <SourceFiles>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Arial.spritefont</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/black.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/button.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/John.jpg</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Placeholder.jpg</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
