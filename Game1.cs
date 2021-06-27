@@ -18,8 +18,10 @@ namespace TheJam
         public int fadeGaol = 0;
         public int fadethrough = 0;
 
+        public int scale = 128;
+
         public Map[,] currentZone = new Map[3,3];
-        public Point zoneCoordinates = new Point(0, 1);
+        public Point zoneCoordinates = new Point(1, 2);
 
         public Game1()
         {
@@ -82,6 +84,8 @@ namespace TheJam
 
 
             _spriteBatch.Begin(samplerState: SamplerState.PointClamp);
+
+            _spriteBatch.Draw(currentZone[zoneCoordinates.X, zoneCoordinates.Y].background, new Rectangle(0,0,scale*8,scale*8), Color.White);
             //if (true)
             //{
             //    //_spriteBatch.DrawString(arial, "Heyo", Vector2.Zero, Color.Black, 0f, Vector2.Zero, 5, SpriteEffects.None, 0.8f);
@@ -123,13 +127,15 @@ namespace TheJam
             {
                 for (int j = 0; j < 3; j++)
                 {
-                    Map generating = new Map(new List<Entity>(), Content.Load<Texture2D>(@"Estetiska\snövärd bg12"));
+                    Map generating = new Map(new List<Entity>(), Content.Load<Texture2D>("Placeholder"));
                     generating.entities.Add(new Player(1, 1, Content.Load<Texture2D>("piggo"), this));
                     generating.entities.Add(new TouchEntity(4, 0, 5, true, Content.Load<Texture2D>("Button"), TouchEntity.Effects.Textbox, "Hello world", this));
 
                     v[i, j] = generating;
                 }
             }
+            v[1, 2].background = Content.Load<Texture2D>(@"Estetiska\snövärd bg12");
+
             return v;
         }
     }
