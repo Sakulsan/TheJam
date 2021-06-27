@@ -29,6 +29,7 @@ namespace TheJam
         //Cutscenes
         bool cutsceneMode;
         int milliPause;
+        Texture2D background;
 
         KeyboardState oldState;
 
@@ -66,6 +67,7 @@ namespace TheJam
 
             arial = Content.Load<SpriteFont>(@"Arial");
             pixel = Content.Load<Texture2D>("Black");
+            background = Content.Load<Texture2D>(@"ui\textbubble\text bubble fancy");
             zone1Track = Content.Load<SoundEffect>(@"music\mainmusic1");
             zone1Track.Play();
 
@@ -166,7 +168,8 @@ namespace TheJam
             if (cutsceneMode)
             {
                 _spriteBatch.Draw(pixel, new Vector2(0, 0), new Rectangle(0, 0, 1, 1), new Color(0, 0, 0, 200), 0f, Vector2.Zero, 1920, SpriteEffects.None, 0.6f);
-                _spriteBatch.DrawString(arial, "pls show", new Vector2(offset + 16, 800), Color.Black);
+                _spriteBatch.Draw(background, new Vector2(offset + 12, 500),new Rectangle(0,0,100,50),Color.White, rotation: 0, Vector2.Zero, scale: 10f,SpriteEffects.None,layerDepth: 0.5f);
+                _spriteBatch.DrawString(arial, "pls show", new Vector2(offset + 16, 800), Color.White);
             }
 
             _spriteBatch.End();
