@@ -4,15 +4,29 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Arial.spritefont</File>
-    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/black.png</File>
-    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/button.png</File>
-    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/snövärd bg12.png</File>
-    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/John.jpg</File>
-    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/piggo.png</File>
-    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Placeholder.jpg</File>
+    <File>C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/Arial.spritefont</File>
+    <File>C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/black.png</File>
+    <File>C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/button.png</File>
+    <File>C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/Estetiska/snövärld bg 0,1.png</File>
+    <File>C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/Estetiska/snövärld bg 1,1.png</File>
+    <File>C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/Estetiska/snövärld bg 1,2.png</File>
+    <File>C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/Estetiska/snövärld bg 2,1.png</File>
+    <File>C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/John.jpg</File>
+    <File>C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/Main Pig/Forward.png</File>
+    <File>C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/Main Pig/Piggo forward ex 1.png</File>
+    <File>C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/Main Pig/Standing still.png</File>
+    <File>C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/Nothing.png</File>
+    <File>C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/piggo.png</File>
+    <File>C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/Placeholder.jpg</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
