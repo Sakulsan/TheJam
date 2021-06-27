@@ -13,10 +13,13 @@ namespace TheJam
         private KeyboardState oldState;
         public Player(int x, int y, Texture2D sprite, Game1 game) : base(x, y, 0,false, sprite, game)
         {
-
-
             oldState = Keyboard.GetState();
-    }
+        }
+
+        public Player(int x, int y, int framerate,Texture2D sprite, Game1 game) : base(x, y, framerate,0, false, sprite, game)
+        {
+            oldState = Keyboard.GetState();
+        }
 
         public override void Update(GameTime gt, List<Entity> enties)
         {
