@@ -10,19 +10,27 @@ namespace TheJam
     {
         int leaveX;
         int leaveY;
-        public LeaveTile(int x, int y, Texture2D sprite, bool collision, int leaveX, int leaveY, Game1 game) : base(x, y, -10, collision,  sprite, game)
+        int spawnX;
+        int spawnY;
+        public LeaveTile(int x, int y, Texture2D sprite, bool collision, int leaveX, int leaveY, int spawnX,int spawnY,Game1 game) : base(x, y, -10, collision,  sprite, game)
         {
             this.leaveY = leaveY;
             this.leaveX = leaveX;
-        }
+            this.spawnX = spawnX;
+            this.spawnY = spawnY;
+        }          
 
         public override void Update(GameTime gt, List<Entity> enties)
         {
-            Entity player = enties.Find(test => test is Player);
+            Entity player = game.currentZone[game.zoneCoordinates.X, game.zoneCoordinates.Y].entities.Find(test => test is Player);
             if (player.x == x && player.y == y)
             {
-                game.fadeGaol = 255 * 5;
+                game.fadeGaol = 255;
+                game.fadethrough = 200;
                 game.zoneCoordinates = new Point(leaveX, leaveY);
+                player = game.currentZone[game.zoneCoordinates.X, game.zoneCoordinates.Y].entities.Find(test => test is Player);
+                player.x = spawnX;
+                player.y = spawnY;
             }
 
             base.Update(gt, enties);
