@@ -4,6 +4,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Audio;
 
 namespace TheJam
 {
@@ -119,25 +120,30 @@ namespace TheJam
                 case Effects.Pickup:
                     { 
                     string[] s;
-                    if (data.Contains('^'))
-                    {
+                    
                         s = data.Split('^');
-                    }
-                    else s = new[] { data };
+                        
+                    
 
                     game.achievments.Add(s[0]);
-                    game.currentBox = new Textbox(new List<string>(new[] { "You have picked up: " + s[0] } ),game.fonts[0].Item2,game);
+                    game.currentBox = new Textbox(new List<string>(new[] { "You have picked up: " + s[0] } ), game.placeHolderSounds, game.fonts[0].Item2,game);
                     deactivated = true;
                     game.cutsceneMode = true;
                     if(s.Length > 1)
                         {
+                            string testo = "";
+                            for (int i = 1; i < s.Length; i++)
+                            {
+                                testo += s[i];
+                            }
+
                             for (int i = 0; i < game.World.GetLength(0); i++)
                             {
                                 for (int j = 0; j < game.World.GetLength(1); j++)
                                 {
-                                    if (game.World[i, j].entities.Exists(test => test is TouchEntity && ((TouchEntity)test).data == s[1]))
+                                    if (game.World[i, j].entities.Exists(test => test is TouchEntity && ((TouchEntity)test).data == testo))
                                     {
-                                        Entity replacement = game.World[i, j].entities.Find(test => test is TouchEntity && ((TouchEntity)test).data == s[1]);
+                                        Entity replacement = game.World[i, j].entities.Find(test => test is TouchEntity && ((TouchEntity)test).data == testo);
                                         replacement.deactivated = false;
                                     };
                                 }
@@ -147,28 +153,31 @@ namespace TheJam
                     break;
                 case Effects.Lock:
                     {
-                        string[] s;
-                        if (data.Contains('^'))
-                        {
-                            s = data.Split('^');
+                        string[] s = data.Split('^');
 
-                        }
-                        else s = new[] { data };
 
                         if (game.achievments.Contains(s[0])) { 
                         game.achievments.Remove(s[0]);
-                        game.currentBox = new Textbox(new List<string>(new[] { "You have used: " + s[0] }), game.fonts[0].Item2, game);
+                        game.currentBox = new Textbox(new List<string>(new[] { "You have used: " + s[0] }), game.placeHolderSounds, game.fonts[0].Item2, game);
                         deactivated = true;
                         game.cutsceneMode = true;
-                        if (s.Length > 1)
+                        if (s.Length > 2)
                         {
+                                string testo = "";
+                                for (int i = 2; i < s.Length; i++)
+                                {
+                                    testo += s[i];
+                                    if (i != s.Length - 1) testo += "^";
+                                }
+
+
                                 for (int i = 0; i < game.World.GetLength(0); i++)
                                 {
                                     for (int j = 0; j < game.World.GetLength(1); j++)
                                     {
-                                        if (game.World[i, j].entities.Exists(test => test is TouchEntity && ((TouchEntity)test).data == s[2]))
+                                        if (game.World[i, j].entities.Exists(test => test is TouchEntity && ((TouchEntity)test).data == testo))
                                         {
-                                            Entity replacement = game.World[i, j].entities.Find(test => test is TouchEntity && ((TouchEntity)test).data == s[2]);
+                                            Entity replacement = game.World[i, j].entities.Find(test => test is TouchEntity && ((TouchEntity)test).data == testo);
                                             replacement.deactivated = false;
                                         };
                                     }
@@ -177,7 +186,7 @@ namespace TheJam
                         }
                         else
                         {
-                            game.currentBox = new Textbox(new List<string>(new[] { s[1] }), game.fonts[0].Item2, game);
+                            game.currentBox = new Textbox(new List<string>(new[] { s[1] }),game.placeHolderSounds, game.fonts[0].Item2, game);
                             game.cutsceneMode = true;
                         }
                     }
@@ -188,4 +197,15 @@ namespace TheJam
         }
     }
 
+
+    public class Volatile : TouchEntity
+    {
+        public Volatile(bool deactivated, int x, int y, int depth, bool collision, Texture2D sprite, Effects toucheffect, string data, Game1 gayme) : base(deactivated, x, y, depth, collision, sprite, toucheffect, data, gayme)
+        {
+        }
+
+        public Volatile(bool deactivated, int x, int y, int framerate, int depth, bool collision, Texture2D sprite, Effects toucheffect, string data, Game1 gayme) : base(deactivated, x, y, framerate, depth, collision, sprite, toucheffect, data, gayme)
+        {
+        }
+    }
 }

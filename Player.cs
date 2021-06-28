@@ -37,13 +37,13 @@ namespace TheJam
             else sprite = game.normalPig;
             KeyboardState newState = Keyboard.GetState();
             if ((newState.IsKeyDown(Keys.Left) || newState.IsKeyDown(Keys.A)) && !(oldState.IsKeyDown(Keys.Left) || oldState.IsKeyDown(Keys.A)))
-                if (!enties.Exists(test => test.collision && test.x == x - 1 && test.y == y)) x--;
+                if (!enties.Exists(test => test.collision && !test.deactivated && test.x == x - 1 && test.y == y)) x--;
             if ((newState.IsKeyDown(Keys.Up) ||   newState.IsKeyDown(Keys.W)) &&   !(oldState.IsKeyDown(Keys.Up)   ||oldState.IsKeyDown(Keys.W)))
-                if (!enties.Exists(test => test.collision && test.x == x  && test.y == y - 1)) y--;
+                if (!enties.Exists(test => test.collision && !test.deactivated && test.x == x  && test.y == y - 1)) y--;
             if ((newState.IsKeyDown(Keys.Right) || newState.IsKeyDown(Keys.D)) && !(oldState.IsKeyDown(Keys.Right) ||  oldState.IsKeyDown(Keys.D)))
-                if (!enties.Exists(test => test.collision && test.x == x + 1 && test.y == y)) x++;
+                if (!enties.Exists(test => test.collision && !test.deactivated && test.x == x + 1 && test.y == y)) x++;
             if ((newState.IsKeyDown(Keys.Down) || newState.IsKeyDown(Keys.S)) && !(oldState.IsKeyDown(Keys.Down) ||  oldState.IsKeyDown(Keys.S)))
-                if (!enties.Exists(test => test.collision && test.x == x  && test.y == y + 1)) y++;
+                if (!enties.Exists(test => test.collision && !test.deactivated && test.x == x  && test.y == y + 1)) y++;
             if ((newState.IsKeyDown(Keys.E)) && !(oldState.IsKeyDown(Keys.E))) {
                 Entity touched = enties.Find(test => test is TouchEntity && !((TouchEntity)test).deactivated &&
                 ((test.x == x - 1 && test.y == y) ||
