@@ -241,6 +241,7 @@ namespace TheJam
                     for (int u = 0; u < 8; u++) generating.entities.Add(new Entity(u, -1, 0, true, nothing, this));
                     for (int u = 0; u < 9; u++) generating.entities.Add(new Entity(8, u, 0, true, nothing, this));
                     for (int u = 0; u < 8; u++) generating.entities.Add(new Entity(u, 8, 0, true, nothing, this));
+                    generating.frameLength = 1000 / 4;
 
 
                     v[i, j] = generating;
@@ -250,22 +251,30 @@ namespace TheJam
             v[1, 2].entities.Add(new LeaveTile(4, 0, placeholder, false, 1, 1, 4, 7, this));
             v[1, 2].entities.Add(new LeaveTile(7, 2, placeholder, false, 2, 2, 1, 2, this));
             v[1, 2].entities.Add(new LeaveTile(0, 2, placeholder, false, 0, 2, 7, 2, this));
-            v[1, 2].frameLength = 1000 / 4;
+
+            v[0, 0].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 0,0");
+            v[0, 0].entities.Add(new LeaveTile(5, 7, placeholder, false, 0, 1, 6, 0, this));
+
+            v[2, 0].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 2,0");
+            v[2, 0].entities.Add(new LeaveTile(3, 7, placeholder, false, 2, 1, 1, 0, this));
+
+            v[1, 0].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 1,0");
+            v[1, 0].entities.Add(new LeaveTile(1, 7, placeholder, false, 1, 1, 3, 0, this));
 
             v[2, 1].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 2,1");
             v[2, 1].entities.Add(new LeaveTile(0, 2, placeholder, false, 1, 1, 7, 2, this));
-            v[2, 1].frameLength = 1000 / 4;
+            v[2, 1].entities.Add(new LeaveTile(1, 0, placeholder, false, 2, 0, 1, 7, this));
 
             v[0, 1].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 0,1");
             v[0, 1].entities.Add(new LeaveTile(7, 2, placeholder, false, 1, 1, 1, 6, this));
             v[0, 1].entities.Add(new LeaveTile(4, 7, placeholder, false, 0, 2, 4, 0, this));
-            v[0, 1].entities.Add(new LeaveTile(6, 0, placeholder, false, 0, 0, 4, 0, this));
-            v[0, 1].frameLength = 1000 / 4;
+            v[0, 1].entities.Add(new LeaveTile(6, 0, placeholder, false, 0, 0, 4, 7, this));
 
             v[1, 1].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 1,1");
             v[1, 1].entities.Add(new LeaveTile(4, 7, placeholder, false, 1, 2,4,0, this));
             v[1, 1].entities.Add(new LeaveTile(7, 2, placeholder, false, 2, 1, 0, 2, this));
             v[1, 1].entities.Add(new LeaveTile(0, 6, placeholder, false, 0, 1, 7, 2, this));
+            v[1, 1].entities.Add(new LeaveTile(3, 0, placeholder, false, 1, 0, 3, 7, this));
 
 
             v[0, 2].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 0,2");

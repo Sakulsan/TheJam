@@ -52,6 +52,18 @@
 #begin dialooog/pinguin.txt
 /copy:dialooog/pinguin.txt
 
+#begin Estetiska/snövärld bg 0,0.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Estetiska/snövärld bg 0,0.png
+
 #begin Estetiska/snövärld bg 0,1.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -76,6 +88,18 @@
 /processorParam:TextureFormat=Color
 /build:Estetiska/snövärld bg 0,2.png
 
+#begin Estetiska/snövärld bg 1,0.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Estetiska/snövärld bg 1,0.png
+
 #begin Estetiska/snövärld bg 1,1.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -99,6 +123,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Estetiska/snövärld bg 1,2.png
+
+#begin Estetiska/snövärld bg 2,0.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Estetiska/snövärld bg 2,0.png
 
 #begin Estetiska/snövärld bg 2,1.png
 /importer:TextureImporter
