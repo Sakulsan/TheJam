@@ -73,3 +73,78 @@ C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialoo
 C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\snövärld bg 0,0.xnb
 C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\snövärld bg 1,0.xnb
 C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\snövärld bg 2,0.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\obj\Debug\netcoreapp3.1\TheJam.dll
+C:\Users\shit6\Documents\GitHub\TheJam\obj\Debug\netcoreapp3.1\TheJam.pdb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Andra karaktärer\penguin.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Arial.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\pinguin.txt
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\snövärd bg12.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\snövärld bg 0,0.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\snövärld bg 0,1.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\snövärld bg 0,2.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\snövärld bg 1,0.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\snövärld bg 1,1.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\snövärld bg 1,2.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\snövärld bg 2,0.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\snövärld bg 2,1.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\snövärld bg 2,2.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Fonts\Arial.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Fonts\BlackCasper.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Fonts\clutchee.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Fonts\ComicSans.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Fonts\Gladifilthefte.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Fonts\Penguin.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Fonts\YellowMagician.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Main Pig\Forward.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Main Pig\Piggo forward ex 1.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Main Pig\Standing still.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Nothing.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\piggo.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\ui\textbubble\text bubble fancy.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\ui\textbubble\text bubble simple.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\ui\tileset ship\version 1\tileset 1.5 spaceship.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\ui\tileset ship\version 1\tileset spaceship 1.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\ui\tileset ship\version 2\tileset 2 spaceship.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\ui\tileset ship\version 2\tileset 2.5 spaceship.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\ui\ui\pause.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\ui\ui\play.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\black.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\button.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\John.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\music\mainmusic1.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Content\Placeholder.xnb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\TheJam.exe
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\TheJam.deps.json
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\TheJam.runtimeconfig.json
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\TheJam.runtimeconfig.dev.json
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\TheJam.dll
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\TheJam.pdb
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\SharpDX.dll
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
+C:\Users\shit6\Documents\GitHub\TheJam\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
+C:\Users\shit6\Documents\GitHub\TheJam\obj\Debug\netcoreapp3.1\TheJam.csproj.AssemblyReference.cache
+C:\Users\shit6\Documents\GitHub\TheJam\obj\Debug\netcoreapp3.1\TheJam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shit6\Documents\GitHub\TheJam\obj\Debug\netcoreapp3.1\TheJam.AssemblyInfoInputs.cache
+C:\Users\shit6\Documents\GitHub\TheJam\obj\Debug\netcoreapp3.1\TheJam.AssemblyInfo.cs
+C:\Users\shit6\Documents\GitHub\TheJam\obj\Debug\netcoreapp3.1\TheJam.csproj.CoreCompileInputs.cache
+C:\Users\shit6\Documents\GitHub\TheJam\obj\Debug\netcoreapp3.1\TheJam.csproj.CopyComplete
+C:\Users\shit6\Documents\GitHub\TheJam\obj\Debug\netcoreapp3.1\TheJam.genruntimeconfig.cache

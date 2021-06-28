@@ -13,6 +13,18 @@
 
 #---------------------------------- Content ---------------------------------#
 
+#begin Andra karaktärer/Crobo.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/Crobo.png
+
 #begin Andra karaktärer/penguin.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -221,6 +233,54 @@
 /processorParam:TextureFormat=Color
 /build:John.jpg
 
+#begin ljud/music/is_värld/bossfight_pussel.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/is_värld/bossfight_pussel.wav
+
+#begin ljud/music/is_värld/mainmusic1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/is_värld/mainmusic1.wav
+
+#begin ljud/music/is_värld/storm.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/is_värld/storm.wav
+
+#begin ljud/music/item pickup.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/item pickup.wav
+
+#begin ljud/music/rymdskepp/alarm.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/rymdskepp/alarm.wav
+
+#begin ljud/music/rymdskepp/alarm2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/rymdskepp/alarm2.wav
+
+#begin ljud/music/rymdskepp/rocket1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/rymdskepp/rocket1.wav
+
+#begin ljud/music/rymdskepp/rocket2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/rymdskepp/rocket2.wav
+
 #begin Main Pig/Forward.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -256,12 +316,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Main Pig/Standing still.png
-
-#begin music/mainmusic1.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:music/mainmusic1.wav
 
 #begin Nothing.png
 /importer:TextureImporter
