@@ -48,7 +48,7 @@ namespace TheJam
 
         public virtual void Update(GameTime gt, List<Entity> enties)
         {
-            if (!deactivated) { 
+            if (/*!deactivated*/true) { 
                 if (frameLength != 0)
             {
                 millisLastFrame += (int)gt.ElapsedGameTime.TotalMilliseconds;
@@ -64,12 +64,15 @@ namespace TheJam
             }
             drawPosition = new Rectangle(x * game.scale + game.offset, y * game.scale, game.scale, game.scale);
             }
+            
         }
 
         public void Draw(SpriteBatch sb)
         {
             if(!deactivated)sb.Draw(sprite, drawPosition , new Rectangle(0,currentFrame * 16,16,16) , Color.White, rotation: 0f, origin: Vector2.Zero, effects: SpriteEffects.None,layerDepth: (depth + 5) / 10);
-    }
+            //else sb.Draw(game.pixel, drawPosition, new Rectangle(0, currentFrame * 16, 16, 16), Color.White, rotation: 0f, origin: Vector2.Zero, effects: SpriteEffects.None, layerDepth: (depth + 5) / 10);
+
+        }
     }
 
     public class TouchEntity : Entity
@@ -86,16 +89,18 @@ namespace TheJam
         public Effects toucheffect;
         public string data;
         public int interactionCount = 0;
-        public TouchEntity(int x, int y, int depth, bool collision, Texture2D sprite, Effects toucheffect, string data, Game1 gayme) : base(x, y, depth, collision, sprite, gayme)
+        public TouchEntity(bool deactivated,int x, int y, int depth, bool collision, Texture2D sprite, Effects toucheffect, string data, Game1 gayme) : base(x, y, depth, collision, sprite, gayme)
         {
             this.toucheffect = toucheffect;
             this.data = data;
+            this.deactivated = deactivated;
         }
 
-        public TouchEntity(int x, int y, int framerate, int depth, bool collision, Texture2D sprite, Effects toucheffect, string data, Game1 gayme) : base(x, y, framerate,depth, collision, sprite, gayme)
+        public TouchEntity(bool deactivated, int x, int y, int framerate, int depth, bool collision, Texture2D sprite, Effects toucheffect, string data, Game1 gayme) : base(x, y, framerate,depth, collision, sprite, gayme)
         {
             this.toucheffect = toucheffect;
             this.data = data;
+            this.deactivated = deactivated;
         }
 
         public void Touch()
@@ -125,9 +130,19 @@ namespace TheJam
                     deactivated = true;
                     game.cutsceneMode = true;
                     if(s.Length > 1)
-                    {
-                        //activate something
-                    }
+                        {
+                            for (int i = 0; i < game.World.GetLength(0); i++)
+                            {
+                                for (int j = 0; j < game.World.GetLength(1); j++)
+                                {
+                                    if (game.World[i, j].entities.Exists(test => test is TouchEntity && ((TouchEntity)test).data == s[1]))
+                                    {
+                                        Entity replacement = game.World[i, j].entities.Find(test => test is TouchEntity && ((TouchEntity)test).data == s[1]);
+                                        replacement.deactivated = false;
+                                    };
+                                }
+                            }
+                        }
                     }
                     break;
                 case Effects.Lock:
@@ -152,7 +167,8 @@ namespace TheJam
                                     {
                                         if (game.World[i, j].entities.Exists(test => test is TouchEntity && ((TouchEntity)test).data == s[1]))
                                         {
-                                            game.World[i, j].entities.Find(test => test is TouchEntity && ((TouchEntity)test).data == s[1]).deactivated = false;
+                                            Entity replacement = game.World[i, j].entities.Find(test => test is TouchEntity && ((TouchEntity)test).data == s[1]);
+                                            replacement.deactivated = false;
                                         };
                                     }
                                 }
