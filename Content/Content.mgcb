@@ -471,11 +471,29 @@
 /processorParam:Quality=Best
 /build:ljud/music/is_värld/bossfight_pussel.wav
 
+#begin ljud/music/is_värld/bossfight_pussel.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/is_värld/bossfight_pussel.wav
+
 #begin ljud/music/is_värld/mainmusic1.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
 /build:ljud/music/is_värld/mainmusic1.wav
+
+#begin ljud/music/is_värld/mainmusic1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/is_värld/mainmusic1.wav
+
+#begin ljud/music/is_värld/storm.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/is_värld/storm.wav
 
 #begin ljud/music/is_värld/storm.wav
 /importer:WavImporter
@@ -489,11 +507,35 @@
 /processorParam:Quality=Best
 /build:ljud/music/item pickup.wav
 
+#begin ljud/music/item pickup.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/item pickup.wav
+
+#begin ljud/music/rymdskepp/alarm 3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/rymdskepp/alarm 3.wav
+
 #begin ljud/music/rymdskepp/alarm.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
 /build:ljud/music/rymdskepp/alarm.wav
+
+#begin ljud/music/rymdskepp/alarm.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/rymdskepp/alarm.wav
+
+#begin ljud/music/rymdskepp/alarm2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/rymdskepp/alarm2.wav
 
 #begin ljud/music/rymdskepp/alarm2.wav
 /importer:WavImporter
@@ -507,11 +549,35 @@
 /processorParam:Quality=Best
 /build:ljud/music/rymdskepp/rocket1.wav
 
+#begin ljud/music/rymdskepp/rocket1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/rymdskepp/rocket1.wav
+
 #begin ljud/music/rymdskepp/rocket2.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
 /build:ljud/music/rymdskepp/rocket2.wav
+
+#begin ljud/music/rymdskepp/rocket2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/rymdskepp/rocket2.wav
+
+#begin ljud/music/sand_värld/sand.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/sand_värld/sand.wav
+
+#begin ljud/music/sand_värld/Tempel.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/sand_värld/Tempel.wav
 
 #begin ljud/music/sand_värld/Tempel.wav
 /importer:WavImporter

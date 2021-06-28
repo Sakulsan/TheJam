@@ -35,6 +35,7 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/snövärld bg 2,2.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/tempe bg 3,2.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Fonts/Arial.spritefont</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Fonts/BEARPAW.spritefont</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Fonts/BlackCasper.spritefont</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Fonts/clutchee.spritefont</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Fonts/ComicSans.spritefont</File>
@@ -46,10 +47,12 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/is_värld/mainmusic1.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/is_värld/storm.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/item pickup.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/rymdskepp/alarm 3.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/rymdskepp/alarm.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/rymdskepp/alarm2.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/rymdskepp/rocket1.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/rymdskepp/rocket2.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/sand_värld/sand.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/sand_värld/Tempel.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Main Pig/Crawling (1).png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Main Pig/Forward.png</File>
@@ -68,6 +71,9 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/ui/play.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

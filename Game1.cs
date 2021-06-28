@@ -304,10 +304,10 @@ namespace TheJam
                     {
                         generating = new Map(new List<Entity>(), placeholder, Content.Load<SoundEffect>(@"music\rocket2"), Map.WallType.Free, this);
                     }
-                    else if (i == 0 && j == 0) generating = new Map(new List<Entity>(), placeholder, Content.Load<SoundEffect>(@"music\bossfight_pussel"), Map.WallType.Free, this);
+                    else if (i == 0 && j == 0) generating = new Map(new List<Entity>(), placeholder, Content.Load<SoundEffect>(@"ljud\music\is_värld\bossfight_pussel"), Map.WallType.Free, this);
                     else if (i == 3 && j == 2) generating = new Map(new List<Entity>(), placeholder, Content.Load<SoundEffect>(@"ljud\music\sand_värld\Tempel"), Map.WallType.Free, this);
 
-                    else generating = new Map(new List<Entity>(),placeholder, 0, Content.Load < SoundEffect > (@"music\mainmusic1"),Map.WallType.Free,this);
+                    else generating = new Map(new List<Entity>(),placeholder, 0, Content.Load < SoundEffect > (@"ljud\music\is_värld\mainmusic1"),Map.WallType.Free,this);
                     generating.frameLength = 1000 / 4;
 
 
