@@ -106,7 +106,9 @@ namespace TheJam
             boxes.Add(("crobo", new Textbox(new List<string>(new[] { "HAT|I Want HAT" }), Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
             boxes.Add(("frusenbat", new Textbox(new List<string>(ReadTextFile(@"dialooog\batteri text\Batteri i is.txt").Split('&')), Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
             //boxes.Add(("bat", new Textbox(new List<string>(ReadTextFile(@"dialooog\batteri text\batteri upp plockad.txt").Split('&')), Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
+            boxes.Add(("drogo", new Textbox(new List<string>(new[] { "Dragon noises" }), Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
 
+            
             normalPig = Content.Load<Texture2D>(@"Main pig\Standing still");
             normalPig = Content.Load<Texture2D>(@"Main pig\Standing still");
             nothing = Content.Load<Texture2D>("Nothing");
@@ -320,7 +322,12 @@ namespace TheJam
 
             v[4,1].background = Content.Load<Texture2D>(@"Estetiska\öken bg 1,1"); 
             v[4, 1].entities.Add(new TouchEntity(3, 4, framerate: 4, 0, true,
-                 Content.Load<Texture2D>(@"Andra karaktärer\Drogo"), TouchEntity.Effects.Pickup, "fire", this));
+                 Content.Load<Texture2D>(@"Andra karaktärer\Drogo"), TouchEntity.Effects.Pickup, "fire^drogo", this));
+            Entity e= new TouchEntity(3, 4, framerate: 4, 0, true,
+                 Content.Load<Texture2D>(@"Andra karaktärer\Drogo"), TouchEntity.Effects.Textbox, "drogo", this);
+            e.deactivated = true;
+            v[4, 1].entities.Add(e);
+
 
             v[3, 1].background = Content.Load<Texture2D>(@"Estetiska\öken bg 0,1");
             v[3, 1].entities.Add(new LeaveTile(3, 2, nothing, false, 3, 2, 4, 6, true, this));
@@ -391,6 +398,12 @@ namespace TheJam
             v[0, 2].entities.Add(new TouchEntity(5, 2, 0, true, Content.Load<Texture2D>(@"Andra ents\batteri"),
                 TouchEntity.Effects.Pickup, "battery", this));
 
+            v[1,2].entities.Add(new TouchEntity(4, 3, 0, true, Content.Load<Texture2D>(@"Andra ents\topphatt i is"),
+                TouchEntity.Effects.Lock, "fire^Top-Hat", this));
+            TouchEntity en = new TouchEntity(4, 3, 0, true, Content.Load<Texture2D>(@"Andra ents\topphatt"),
+                TouchEntity.Effects.Pickup, "Top-Hat", this);
+            en.deactivated = true;
+            v[1, 2].entities.Add(e);
 
             return v;
         }

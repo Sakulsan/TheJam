@@ -38,7 +38,7 @@ namespace TheJam
             if ((newState.IsKeyDown(Keys.Down) || newState.IsKeyDown(Keys.S)) && !(oldState.IsKeyDown(Keys.Down) ||  oldState.IsKeyDown(Keys.S)))
                 if (!enties.Exists(test => test.collision && test.x == x  && test.y == y + 1)) y++;
             if ((newState.IsKeyDown(Keys.E)) && !(oldState.IsKeyDown(Keys.E))) {
-                Entity touched = enties.Find(test => test is TouchEntity &&
+                Entity touched = enties.Find(test => test is TouchEntity && !((TouchEntity)test).deactivated &&
                 ((test.x == x - 1 && test.y == y) ||
                 (test.x == x + 1 && test.y == y) ||
                 (test.x == x && test.y == y - 1) ||

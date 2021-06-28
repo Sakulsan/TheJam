@@ -65,7 +65,7 @@ namespace TheJam
             if (milliMove < cursorSpeed * tmp.Length) milliMove += gameTime.ElapsedGameTime.Milliseconds;
             charCursor = milliMove / cursorSpeed;
             KeyboardState newstate = Keyboard.GetState();
-            if (newstate.IsKeyDown(Keys.Enter) && oldState.IsKeyUp(Keys.Enter))
+            if (newstate.IsKeyDown(Keys.E) && oldState.IsKeyUp(Keys.E))
             {
                 if (milliMove < cursorSpeed * tmp.Length)
                 {
