@@ -16,7 +16,7 @@ namespace TheJam
         public List<string> says = new List<string>();
         public List<string> pages = new List<string>();
         public SpriteFont selectedFont;
-        public int interactionCount = -1;
+        public int interactionCount = 0;
         public Game1 game;
         public string output = "";
         KeyboardState oldState = Keyboard.GetState();

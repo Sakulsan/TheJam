@@ -75,7 +75,8 @@ namespace TheJam
         {
             Textbox,
             Teleport,
-            Pickup
+            Pickup,
+            trade
         }
 
         public Effects toucheffect;
@@ -107,6 +108,14 @@ namespace TheJam
                 case Effects.Teleport:
                     break;
                 case Effects.Pickup:
+                    string[] s = data.Split('|');
+                    game.achievments.Add(s[0]);
+                    game.currentBox = new Textbox(new List<string>(new[] { "You have picked up: " + data } ),game.fonts[0].Item2,game);
+                    game.cutsceneMode = true;
+                    {
+                        
+                        //game.World[game.zoneCoordinates.X, game.zoneCoordinates.Y].entities;
+                    }
                     break;
                 default:
                     break;

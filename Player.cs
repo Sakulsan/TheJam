@@ -27,6 +27,7 @@ namespace TheJam
 
         public override void Update(GameTime gt, List<Entity> enties)
         {
+            //if()
             KeyboardState newState = Keyboard.GetState();
             if ((newState.IsKeyDown(Keys.Left) || newState.IsKeyDown(Keys.A)) && !(oldState.IsKeyDown(Keys.Left) || oldState.IsKeyDown(Keys.A)))
                 if (!enties.Exists(test => test.collision && test.x == x - 1 && test.y == y)) x--;
