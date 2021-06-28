@@ -151,6 +151,7 @@ namespace TheJam
                         if (data.Contains('^'))
                         {
                             s = data.Split('^');
+
                         }
                         else s = new[] { data };
 
@@ -165,9 +166,9 @@ namespace TheJam
                                 {
                                     for (int j = 0; j < game.World.GetLength(1); j++)
                                     {
-                                        if (game.World[i, j].entities.Exists(test => test is TouchEntity && ((TouchEntity)test).data == s[1]))
+                                        if (game.World[i, j].entities.Exists(test => test is TouchEntity && ((TouchEntity)test).data == s[2]))
                                         {
-                                            Entity replacement = game.World[i, j].entities.Find(test => test is TouchEntity && ((TouchEntity)test).data == s[1]);
+                                            Entity replacement = game.World[i, j].entities.Find(test => test is TouchEntity && ((TouchEntity)test).data == s[2]);
                                             replacement.deactivated = false;
                                         };
                                     }
@@ -176,7 +177,7 @@ namespace TheJam
                         }
                         else
                         {
-                            game.currentBox = new Textbox(new List<string>(new[] { "I think " + s[0] + " would help here" }), game.fonts[0].Item2, game);
+                            game.currentBox = new Textbox(new List<string>(new[] { s[1] }), game.fonts[0].Item2, game);
                             game.cutsceneMode = true;
                         }
                     }

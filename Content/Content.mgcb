@@ -205,18 +205,6 @@
 /processorParam:TextureFormat=Color
 /build:black.png
 
-#begin button.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:button.png
-
 #begin dialooog/batteri text/Batteri i is.txt
 /copy:dialooog/batteri text/Batteri i is.txt
 
@@ -253,18 +241,6 @@
 /processorParam:TextureFormat=Color
 /build:Estetiska/igo bg 4,2.png
 
-#begin Estetiska/igo bg 4,2.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Estetiska/igo bg 4,2.png
-
 #begin Estetiska/öken bg 0,0.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -288,30 +264,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Estetiska/öken bg 0,1.png
-
-#begin Estetiska/öken bg 0,1.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Estetiska/öken bg 0,1.png
-
-#begin Estetiska/öken bg 1,0.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Estetiska/öken bg 1,0.png
 
 #begin Estetiska/öken bg 1,0.png
 /importer:TextureImporter
@@ -361,18 +313,6 @@
 /processorParam:TextureFormat=Color
 /build:Estetiska/snövärld bg 0,0.png
 
-#begin Estetiska/snövärld bg 0,0.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Estetiska/snövärld bg 0,0.png
-
 #begin Estetiska/snövärld bg 0,1.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -384,30 +324,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Estetiska/snövärld bg 0,1.png
-
-#begin Estetiska/snövärld bg 0,1.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Estetiska/snövärld bg 0,1.png
-
-#begin Estetiska/snövärld bg 0,2.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Estetiska/snövärld bg 0,2.png
 
 #begin Estetiska/snövärld bg 0,2.png
 /importer:TextureImporter
@@ -433,18 +349,6 @@
 /processorParam:TextureFormat=Color
 /build:Estetiska/snövärld bg 1,0.png
 
-#begin Estetiska/snövärld bg 1,0.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Estetiska/snövärld bg 1,0.png
-
 #begin Estetiska/snövärld bg 1,1.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -456,30 +360,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Estetiska/snövärld bg 1,1.png
-
-#begin Estetiska/snövärld bg 1,1.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Estetiska/snövärld bg 1,1.png
-
-#begin Estetiska/snövärld bg 1,2.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Estetiska/snövärld bg 1,2.png
 
 #begin Estetiska/snövärld bg 1,2.png
 /importer:TextureImporter
@@ -505,30 +385,6 @@
 /processorParam:TextureFormat=Color
 /build:Estetiska/snövärld bg 2,0.png
 
-#begin Estetiska/snövärld bg 2,0.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Estetiska/snövärld bg 2,0.png
-
-#begin Estetiska/snövärld bg 2,1.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Estetiska/snövärld bg 2,1.png
-
 #begin Estetiska/snövärld bg 2,1.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -552,30 +408,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Estetiska/snövärld bg 2,2.png
-
-#begin Estetiska/snövärld bg 2,2.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Estetiska/snövärld bg 2,2.png
-
-#begin Estetiska/tempe bg 3,2.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Estetiska/tempe bg 3,2.png
 
 #begin Estetiska/tempe bg 3,2.png
 /importer:TextureImporter
@@ -795,18 +627,6 @@
 /processorParam:TextureFormat=Color
 /build:piggo.png
 
-#begin Placeholder.jpg
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Placeholder.jpg
-
 #begin ui/textbubble/text bubble fancy.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -878,6 +698,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:ui/tileset ship/version 2/tileset 2.5 spaceship.png
+
+#begin ui/ui/kugg.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:ui/ui/kugg.png
 
 #begin ui/ui/pause.png
 /importer:TextureImporter
