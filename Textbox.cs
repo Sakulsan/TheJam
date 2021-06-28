@@ -16,7 +16,7 @@ namespace TheJam
         public List<string> says = new List<string>();
         public List<string> pages = new List<string>();
         public SpriteFont selectedFont;
-        public int interactionCount = 0;
+        public int interactionCount = -1;
         public Game1 game;
         public string output = "";
         KeyboardState oldState = Keyboard.GetState();
@@ -41,13 +41,26 @@ namespace TheJam
             milliMove = 0;
             charCursor = 0;
             game.cutsceneMode = true;
+            if(interactionCount < says.Count - 1)
             interactionCount++;
         }
 
         public void boxUpdate(GameTime gameTime)
         {
+            
+            
+
+            //if (says[interactionCount].Contains('|'))
+            //{
             string[] pages = says[interactionCount].Split('|');
             string tmp = pages[pageNumber];
+            //}
+            //else
+            //{
+            //    pages = new[] { says[0] };
+            //    tmp = says[0];
+            //}
+            
 
             if (milliMove < cursorSpeed * tmp.Length) milliMove += gameTime.ElapsedGameTime.Milliseconds;
             charCursor = milliMove / cursorSpeed;

@@ -87,8 +87,11 @@ namespace TheJam
 
             boxes.Add(("Penguin", new Textbox(new List<string>(ReadTextFile(@"dialooog\pinguin.txt").Split('&')), Content.Load<SpriteFont>(@"Fonts\Penguin"), this)));
             boxes.Add(("ocean", new Textbox(new List<string>(ReadTextFile(@"dialooog\ocean.txt").Split('&')), Content.Load<SpriteFont>(@"Fonts\BEARPAW"), this)));
-            boxes.Add(("cliff", new Textbox(new List<string>(new[]{"cliff"}), Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
+            boxes.Add(("cliff", new Textbox(new List<string>(new[]{"Thats seems unsteady..."}), Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
+            boxes.Add(("ship", new Textbox(new List<string>(new[] 
+            { "The ship has seen better days|A lot better days", "Like wow, this is sooo bad", "This is worse then that time I made a game in 48hours", "Maybe I should look for those batteries" }), Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
 
+            boxes.Add(("BatteryBox1", new Textbox(new List<string>(ReadTextFile(@"dialooog\batteri text\tom batteri station.txt").Split('&')), Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
 
             nothing = Content.Load<Texture2D>("Nothing");
 
@@ -248,23 +251,49 @@ namespace TheJam
 
             v[0,3].background = Content.Load<Texture2D>(@"Estetiska\skepp bg  0,3");
             v[0,3].entities.Add(new LeaveTile(2, 7, nothing, false, 1, 0, 3, 3, true, this));
-            v[3,0].background = Content.Load<Texture2D>(@"Estetiska\öken bg 1,1");
+            v[0,3].entities.Add(new TouchEntity(1, 2, 1, true, Content.Load<Texture2D>(@"Andra ents\batterihållare tom"), TouchEntity.Effects.Textbox, "BatteryBox1", this));
 
-            v[1, 2].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 1,2");
+
+            v[4,1].background = Content.Load<Texture2D>(@"Estetiska\öken bg 1,1");
+            v[3, 1].background = Content.Load<Texture2D>(@"Estetiska\öken bg 0,1");
+            
+
+            v[1, 2].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 1,2"); 
+            for (int i = 0; i < 8; i++) v[1, 2].entities.Add(new TouchEntity(i, 5, 0, true, nothing, TouchEntity.Effects.Textbox, "ocean", this));
+
 
             v[0, 0].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 0,0");
-            v[2, 0].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 2,0");
+            v[2, 0].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 2,0"); 
+            for (int i = 0; i < 8; i++) v[0, 2].entities.Add(new TouchEntity(i, 5, 0, true, nothing, TouchEntity.Effects.Textbox, "ocean", this));
+            for (int i = 0; i < 8; i++) v[0, 2].entities.Add(new TouchEntity(3, i, 0, true, nothing, TouchEntity.Effects.Textbox, "ocean", this));
+
+
             v[1, 0].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 1,0");
-            v[1, 0].entities.Add(new LeaveTile(3, 2, nothing, false, 0, 3, 2, 6, true, this));
-            v[2, 1].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 2,1");
-            v[0, 1].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 0,1");
             for (int i = 0; i < 8; i++)
             {
-                v[0, 1].entities.Add(new TouchEntity(3,i,0,true,nothing,TouchEntity.Effects.Textbox,"ocean",this));
+                v[1, 0].entities.Add(new TouchEntity(0, i, 1, true, nothing, TouchEntity.Effects.Textbox, "cliff", this));
+                v[1, 0].entities.Add(new TouchEntity(7, i, 1, true, nothing, TouchEntity.Effects.Textbox, "cliff", this));
             }
+            v[1, 0].entities.Add(new Entity(1, 2, 1, true, nothing, this));
+            v[1, 0].entities.Add(new TouchEntity(2, 2, 1, true, nothing,TouchEntity.Effects.Textbox,"ship", this));
+            v[1, 0].entities.Add(new TouchEntity(4, 2, 1, true, nothing, TouchEntity.Effects.Textbox, "ship", this));
+            v[1, 0].entities.Add(new TouchEntity(5, 2, 1, true, nothing, TouchEntity.Effects.Textbox, "ship", this));
+            v[1, 0].entities.Add(new Entity(6, 2, 1, true, nothing, this));
+            v[1, 0].entities.Add(new LeaveTile(3, 2, nothing, false, 0, 3, 2, 6, true, this));
+
+            v[2, 1].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 2,1");
+            for (int i = 0; i < 8; i++) v[2, 1].entities.Add(new TouchEntity(4, i, 0, true, nothing, TouchEntity.Effects.Textbox, "ocean", this));
+
+            v[0, 1].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 0,1");
+            for (int i = 0; i < 8; i++)v[0, 1].entities.Add(new TouchEntity(3,i,0,true,nothing,TouchEntity.Effects.Textbox,"ocean",this));
+            
             v[1, 1].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 1,1");
             v[0, 2].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 0,2");
             v[2, 2].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 2,2");
+            for (int i = 0; i < 8; i++) v[2, 2].entities.Add(new TouchEntity(4, i, 0, true, nothing, TouchEntity.Effects.Textbox, "ocean", this));
+            for (int i = 0; i < 8; i++) v[2, 2].entities.Add(new TouchEntity(i, 5, 0, true, nothing, TouchEntity.Effects.Textbox, "ocean", this));
+
+
             v[startX, startY].entities.Add(new TouchEntity(1, 1, framerate: 6, 0, true,
                 Content.Load<Texture2D>(@"Andra karaktärer\penguin"), TouchEntity.Effects.Textbox, "Penguin", this));
 

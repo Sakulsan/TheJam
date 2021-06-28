@@ -120,7 +120,7 @@ namespace TheJam
             else
             {
                 loaded = false;
-                entities.RemoveAll(test => (test is LeaveTile && !((LeaveTile)test).permanent) || (test.collision == true && test.sprite == g.nothing));
+                entities.RemoveAll(test => (test is LeaveTile && !((LeaveTile)test).permanent) || (test.collision == true && test.sprite == g.nothing && test.depth == 0));
                 //unload
             }
         }
