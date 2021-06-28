@@ -99,17 +99,10 @@ namespace TheJam
             switch (toucheffect)
             {
                 case Effects.Textbox:
-                    game.cutsceneMode = true;
-                    string font = data.Substring(0, data.IndexOf('*'));
-                    string upcomingBoxes;
-                    string[] talks = data.Substring(data.IndexOf('*') + 1).Split('&');
-                    if (interactionCount > talks.Length) upcomingBoxes = talks[talks.Length - 1];
-                    else upcomingBoxes = talks[interactionCount - 1];
-                    game.says = new List<string>(upcomingBoxes.Split('|'));
-                    game.pageNumber = 0;
-                    game.milliMove = 0;
-                    game.charCursor = 0;
-                    game.selectedFont = game.fonts.Find(test => test.Item1 == font).Item2;
+                    //string font = data.Substring(0, data.IndexOf('*'));
+                    //List<string> talks = new List<string>(data.Substring(data.IndexOf('*') + 1).Split('&'));
+                    game.currentBox = game.boxes.Find(test => test.Item1 == data).Item2;
+                    game.currentBox.newTalk();
                     break;
                 case Effects.Teleport:
                     break;
