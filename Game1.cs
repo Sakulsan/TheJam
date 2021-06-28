@@ -30,6 +30,7 @@ namespace TheJam
         bool cutsceneMode;
         int milliPause;
 
+        KeyboardState oldState;
 
         public string debug = "";
 
@@ -68,7 +69,7 @@ namespace TheJam
             zone1Track = Content.Load<SoundEffect>(@"music\mainmusic1");
             zone1Track.Play();
 
-
+            oldState = Keyboard.GetState();
 
             currentZone = LoadZone1();
 
@@ -80,49 +81,59 @@ namespace TheJam
             //    if (e != null) e.collision = true;
 
 
-
             // TODO: use this.Content to load your game content here
         }
 
         protected override void Update(GameTime gameTime)
         {
+            
+
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
             Map current = currentZone[zoneCoordinates.X, zoneCoordinates.Y];
+            if (cutsceneMode) {
 
-            foreach (Entity e in current.entities) e.Update(gameTime, currentZone[zoneCoordinates.X,zoneCoordinates.Y].entities);
+                KeyboardState newstate = Keyboard.GetState();
+                if (newstate.IsKeyDown(Keys.E) && oldState.IsKeyUp(Keys.E)) cutsceneMode = false;
+                oldState = newstate;
 
-            if (Keyboard.GetState().IsKeyDown(Keys.C)) cutsceneMode = true;
+            }
+            else
+            {
+                foreach (Entity e in current.entities) e.Update(gameTime, currentZone[zoneCoordinates.X, zoneCoordinates.Y].entities);
+
+                if (Keyboard.GetState().IsKeyDown(Keys.C)) cutsceneMode = true;
 
                 if (Keyboard.GetState().IsKeyDown(Keys.F)) fadeGaol = 255;
-            if (fadeGaol - 17 > fadethrough) fadethrough += gameTime.ElapsedGameTime.Milliseconds;
-            else if (fadeGaol + 17 < fadethrough) fadethrough -= gameTime.ElapsedGameTime.Milliseconds;
-            else if (fadethrough != 0) fadeGaol= 0;
-            // TODO: Add your update logic here
+                if (fadeGaol - 17 > fadethrough) fadethrough += gameTime.ElapsedGameTime.Milliseconds;
+                else if (fadeGaol + 17 < fadethrough) fadethrough -= gameTime.ElapsedGameTime.Milliseconds;
+                else if (fadethrough != 0) fadeGaol = 0;
+                // TODO: Add your update logic here
 
-            millisplaying += gameTime.ElapsedGameTime.Milliseconds;
-            if (millisplaying > 54000)
-            {
-                zone1Track.Play();
-                millisplaying = 0;
-            }
-            //BG anim
+                
+                //BG anim
 
-            if (current.frameLength != 0)
-            {
-                current.millisLastFrame += (int)gameTime.ElapsedGameTime.TotalMilliseconds;
-
-                //int movedFrames = (int)Math.Floor(((decimal)millisLastFrame) / (decimal)frameLength);
-                if (current.millisLastFrame > current.frameLength)
+                if (current.frameLength != 0)
                 {
-                    current.currentFrame++;
-                    int frameCount = current.background.Height / 128;
-                    current.currentFrame %= frameCount;
-                    current.millisLastFrame = 0;
+                    current.millisLastFrame += (int)gameTime.ElapsedGameTime.TotalMilliseconds;
+
+                    //int movedFrames = (int)Math.Floor(((decimal)millisLastFrame) / (decimal)frameLength);
+                    if (current.millisLastFrame > current.frameLength)
+                    {
+                        current.currentFrame++;
+                        int frameCount = current.background.Height / 128;
+                        current.currentFrame %= frameCount;
+                        current.millisLastFrame = 0;
+                    }
+                }
+                millisplaying += gameTime.ElapsedGameTime.Milliseconds;
+                if (millisplaying > 54000)
+                {
+                    zone1Track.Play();
+                    millisplaying = 0;
                 }
             }
-
             base.Update(gameTime);
         }
 
