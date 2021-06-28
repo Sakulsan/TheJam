@@ -4,6 +4,7 @@ using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
 using System.Xml;
 using Microsoft.Xna.Framework.Audio;
+using System.IO;
 
 namespace TheJam
 {
@@ -75,8 +76,7 @@ namespace TheJam
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            arial = Content.Load<SpriteFont>(@"Fonts\Arial");
-            fonts.Add(("Arial", arial));
+            fonts.Add(("Arial", Content.Load<SpriteFont>(@"Fonts\Arial")));
             fonts.Add(("littletrobulegirl", Content.Load<SpriteFont>(@"Fonts\Penguin")));
             fonts.Add(("YellowMagician", Content.Load<SpriteFont>(@"Fonts\YellowMagician")));
             fonts.Add(("comic", Content.Load<SpriteFont>(@"Fonts\ComicSans")));
@@ -199,7 +199,7 @@ namespace TheJam
 
             foreach (Entity e in currentZone[zoneCoordinates.X,zoneCoordinates.Y].entities) e.Draw(_spriteBatch);
             //_spriteBatch.DrawString(arial, $"{fadethrough} : {fadeGaol}", Vector2.Zero, Color.Black);
-            _spriteBatch.DrawString(arial, debug, Vector2.Zero, Color.Black);
+            _spriteBatch.DrawString(fonts[0].Item2, debug, Vector2.Zero, Color.Black);
             if (fadethrough != 0) _spriteBatch.Draw(pixel, new Vector2(0, 0), new Rectangle(0, 0, 1, 1), new Color(0, 0, 0, fadethrough), 0f, Vector2.Zero, 1920, SpriteEffects.None, 0.6f);
 
             if (cutsceneMode)
@@ -211,7 +211,6 @@ namespace TheJam
             }
 
             _spriteBatch.End();
-
 
 
             // TODO: Add your drawing code here
@@ -273,13 +272,28 @@ namespace TheJam
             v[0, 2].entities.Add(new LeaveTile(4, 0, placeholder, false, 0, 1, 4, 7, this));
             v[0, 2].entities.Add(new LeaveTile(7, 2, placeholder, false, 1, 2, 0, 2, this));
             v[0, 2].frameLength = 1000 / 4;
+            //List<string> loadedText = new List<string>();
+            {
+                v[2, 2].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 2,2");
+                v[2, 2].entities.Add(new LeaveTile(4, 0, placeholder, false, 2, 1, 4, 7, this));
+                v[2, 2].entities.Add(new LeaveTile(0, 2, placeholder, false, 1, 2, 7, 2, this));
+                v[2, 2].frameLength = 1000 / 4;
+                 var filePath = Path.Combine(Content.RootDirectory, @"dialooog\pinguin.txt");
+                string peng;
+                using (var stream = TitleContainer.OpenStream(filePath))
+                {
+                    using (var reader = new StreamReader(stream))
+                    {
+                        peng = reader.ReadToEnd();
+                    }
+                }
+                v[2, 2].entities.Add(new TouchEntity(1, 1, framerate: 6, 0, true,
+                    Content.Load<Texture2D>(@"Andra karaktärer\penguin"), TouchEntity.Effects.Textbox, peng, this));
 
-            v[2, 2].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 2,2");
-            v[2, 2].entities.Add(new LeaveTile(4, 0, placeholder, false, 2, 1, 4, 7, this));
-            v[2, 2].entities.Add(new LeaveTile(0, 2, placeholder, false, 1, 2, 7, 2, this));
-            v[2, 2].frameLength = 1000 / 4;
-            v[2, 2].entities.Add(new TouchEntity(1,1,framerate: 6,0,true,
-                Content.Load<Texture2D>(@"Andra karaktärer\penguin"),TouchEntity.Effects.Textbox, "comic¤I am a fucking penguin!|So what?\nYou are a pig!&Could you stop talking to me|Please", this));
+
+            }
+
+
 
             return v;
         }

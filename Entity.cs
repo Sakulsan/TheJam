@@ -100,9 +100,9 @@ namespace TheJam
             {
                 case Effects.Textbox:
                     game.cutsceneMode = true;
-                    string font = data.Substring(0, data.IndexOf('¤'));
+                    string font = data.Substring(0, data.IndexOf('*'));
                     string upcomingBoxes;
-                    string[] talks = data.Substring(data.IndexOf('¤') + 1).Split('&');
+                    string[] talks = data.Substring(data.IndexOf('*') + 1).Split('&');
                     if (interactionCount > talks.Length) upcomingBoxes = talks[talks.Length - 1];
                     else upcomingBoxes = talks[interactionCount - 1];
                     game.says = new List<string>(upcomingBoxes.Split('|'));
