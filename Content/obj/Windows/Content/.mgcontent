@@ -4,43 +4,95 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Andra karaktärer/penguin.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/black.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/button.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Estetiska/snövärld bg 0,0.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Estetiska/snövärld bg 0,1.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Estetiska/snövärld bg 0,2.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Estetiska/snövärld bg 1,0.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Estetiska/snövärld bg 1,1.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Estetiska/snövärld bg 1,2.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Estetiska/snövärld bg 2,0.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Estetiska/snövärld bg 2,1.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Estetiska/snövärld bg 2,2.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Fonts/Arial.spritefont</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Fonts/BlackCasper.spritefont</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Fonts/clutchee.spritefont</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Fonts/ComicSans.spritefont</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Fonts/Gladifilthefte.spritefont</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Fonts/Penguin.spritefont</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Fonts/YellowMagician.spritefont</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/John.jpg</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Main Pig/Forward.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Main Pig/Piggo forward ex 1.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Main Pig/Standing still.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/music/mainmusic1.wav</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Nothing.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/piggo.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/Placeholder.jpg</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/ui/textbubble/text bubble fancy.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/ui/textbubble/text bubble simple.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/ui/tileset ship/version 1/tileset 1.5 spaceship.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/ui/tileset ship/version 1/tileset spaceship 1.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/ui/tileset ship/version 2/tileset 2 spaceship.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/ui/tileset ship/version 2/tileset 2.5 spaceship.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/ui/ui/pause.png</File>
-    <File>C:/Users/shit6/Documents/GitHub/TheJam/Content/ui/ui/play.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/batteri i is.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/batteri.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/batterihållare 2 batterier.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/batterihållare full.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/batterihållare tom.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/hatterihållare 1 batteri.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/isblock.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/topphatt i is.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/topphatt.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/Child  (1).png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/Crobo.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/Drogo.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/Karen.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/Mother.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/penguin.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/black.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/button.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/igo bg 4,2.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/öken bg 0,1.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/öken bg 1,0.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/snövärld bg 0,0.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/snövärld bg 0,1.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/snövärld bg 0,2.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/snövärld bg 1,0.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/snövärld bg 1,1.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/snövärld bg 1,2.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/snövärld bg 2,0.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/snövärld bg 2,1.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/snövärld bg 2,2.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/tempe bg 3,2.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Fonts/Arial.spritefont</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Fonts/BlackCasper.spritefont</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Fonts/clutchee.spritefont</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Fonts/ComicSans.spritefont</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Fonts/Gladifilthefte.spritefont</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Fonts/Penguin.spritefont</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Fonts/YellowMagician.spritefont</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/John.jpg</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/is_värld/bossfight_pussel.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/is_värld/mainmusic1.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/is_värld/storm.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/item pickup.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/rymdskepp/alarm.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/rymdskepp/alarm2.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/rymdskepp/rocket1.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/rymdskepp/rocket2.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/sand_värld/Tempel.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Main Pig/Forward.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Main Pig/Piggo forward ex 1.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Main Pig/Standing still.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Nothing.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/piggo.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Placeholder.jpg</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/textbubble/text bubble fancy.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/textbubble/text bubble simple.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/tileset ship/version 1/tileset 1.5 spaceship.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/tileset ship/version 1/tileset spaceship 1.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/tileset ship/version 2/tileset 2 spaceship.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/tileset ship/version 2/tileset 2.5 spaceship.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/ui/pause.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/ui/play.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

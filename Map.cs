@@ -120,13 +120,9 @@ namespace TheJam
             else
             {
                 loaded = false;
-                entities.RemoveAll(test => (test is LeaveTile && !((LeaveTile)test).permanent) || (test.collision == true && test.sprite == g.nothing && test.depth == 0));
+                entities.RemoveAll(test => (test is LeaveTile && !((LeaveTile)test).permanent) /*|| (test.collision == true && test.sprite == g.nothing && test.depth == 0)*/);
                 //unload
             }
-        }
-
-        private void makeWalls(WallType wt, Game1 g)
-        {
         }
     }
 }

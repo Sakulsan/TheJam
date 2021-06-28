@@ -13,7 +13,7 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin Andra ents/batteri.png
+#begin Andra ents/batteri i is.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -23,7 +23,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Andra ents/batteri.png
+/build:Andra ents/batteri i is.png
 
 #begin Andra ents/batteri.png
 /importer:TextureImporter
@@ -49,18 +49,6 @@
 /processorParam:TextureFormat=Color
 /build:Andra ents/batterihållare 2 batterier.png
 
-#begin Andra ents/batterihållare 2 batterier.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Andra ents/batterihållare 2 batterier.png
-
 #begin Andra ents/batterihållare full.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -72,30 +60,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Andra ents/batterihållare full.png
-
-#begin Andra ents/batterihållare full.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Andra ents/batterihållare full.png
-
-#begin Andra ents/batterihållare tom.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Andra ents/batterihållare tom.png
 
 #begin Andra ents/batterihållare tom.png
 /importer:TextureImporter
@@ -121,7 +85,7 @@
 /processorParam:TextureFormat=Color
 /build:Andra ents/hatterihållare 1 batteri.png
 
-#begin Andra ents/hatterihållare 1 batteri.png
+#begin Andra ents/isblock.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -131,7 +95,43 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Andra ents/hatterihållare 1 batteri.png
+/build:Andra ents/isblock.png
+
+#begin Andra ents/topphatt i is.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra ents/topphatt i is.png
+
+#begin Andra ents/topphatt.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra ents/topphatt.png
+
+#begin Andra karaktärer/Child  (1).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/Child  (1).png
 
 #begin Andra karaktärer/Crobo.png
 /importer:TextureImporter
@@ -144,6 +144,42 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Andra karaktärer/Crobo.png
+
+#begin Andra karaktärer/Drogo.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/Drogo.png
+
+#begin Andra karaktärer/Karen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/Karen.png
+
+#begin Andra karaktärer/Mother.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/Mother.png
 
 #begin Andra karaktärer/penguin.png
 /importer:TextureImporter
@@ -190,8 +226,32 @@
 #begin dialooog/batteri text/tom batteri station.txt
 /copy:dialooog/batteri text/tom batteri station.txt
 
+#begin dialooog/crab.txt
+/copy:dialooog/crab.txt
+
+#begin dialooog/joe mama.txt
+/copy:dialooog/joe mama.txt
+
+#begin dialooog/ocean.txt
+/copy:dialooog/ocean.txt
+
 #begin dialooog/pinguin.txt
 /copy:dialooog/pinguin.txt
+
+#begin dialooog/Sarox.txt
+/copy:dialooog/Sarox.txt
+
+#begin Estetiska/igo bg 4,2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Estetiska/igo bg 4,2.png
 
 #begin Estetiska/öken bg 0,1.png
 /importer:TextureImporter
@@ -204,6 +264,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Estetiska/öken bg 0,1.png
+
+#begin Estetiska/öken bg 1,0.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Estetiska/öken bg 1,0.png
 
 #begin Estetiska/snövärld bg 0,0.png
 /importer:TextureImporter
@@ -313,6 +385,18 @@
 /processorParam:TextureFormat=Color
 /build:Estetiska/snövärld bg 2,2.png
 
+#begin Estetiska/tempe bg 3,2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Estetiska/tempe bg 3,2.png
+
 #begin Fonts/Arial.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
@@ -421,6 +505,12 @@
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
 /build:ljud/music/rymdskepp/rocket2.wav
+
+#begin ljud/music/sand_värld/Tempel.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/sand_värld/Tempel.wav
 
 #begin Main Pig/Forward.png
 /importer:TextureImporter
