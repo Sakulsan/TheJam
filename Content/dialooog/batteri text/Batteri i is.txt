@@ -1,1 +1,3 @@
-arial*A fuel cell seems to be frozen stuck into the snow, perhaps because of how hot you are it might melt off.
+A fuel cell seems to be frozen stuck into the 
+snow, perhaps because of how hot you are it 
+might melt off.
