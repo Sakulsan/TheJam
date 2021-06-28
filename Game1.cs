@@ -16,38 +16,41 @@ namespace TheJam
         public List<Entity> entities = new List<Entity>();
         public SpriteFont arial;
         public List<(string, SpriteFont)> fonts = new List<(string, SpriteFont)>();
+        public List<(string, Textbox)> boxes = new List<(string, Textbox)>();
 
+        public SoundEffect currentMusic;
+        public SoundEffectInstance music;
+        SoundBank soundEffects;
+        public Textbox currentBox;
+        public bool cutsceneMode = false;
 
-        public SoundEffect zone1Track;
-        public int millisplaying;
+        public const int startX = 1;
+        public const int startY = 0;
 
         public bool texting;
 
-        public int fadeGaol = 0;
-        public int fadethrough = 0;
+        public int moveFadeGaol = 0;
+        public int moveFadethrough = 0;
+
+
+        public int soundFadeGaol = 0;
+        public int soundFadethrough = 0;
 
         public int scale = 128;
         public int offset = (1920 - 128*8) / 2;
 
         //Cutscenes
-        public bool cutsceneMode;
-        int milliPause;
-        const int cursorSpeed = 20;
-        public int milliMove;
-        public int charCursor;
-        public int pageNumber;
-        public List<string> says = new List<string>();
-        public SpriteFont selectedFont;
-        //public string currentSay = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor\nHeyo";
-        
+
+        public Texture2D nothing;
+
         Texture2D background;
 
         KeyboardState oldState;
 
         public string debug = "";
 
-        public Map[,] currentZone = new Map[3,3];
-        public Point zoneCoordinates = new Point(2, 2);
+        public Map[,] World = new Map[5,5];
+        public myPoint zoneCoordinates;
 
         public Game1()
         {
@@ -80,15 +83,27 @@ namespace TheJam
             fonts.Add(("littletrobulegirl", Content.Load<SpriteFont>(@"Fonts\Penguin")));
             fonts.Add(("YellowMagician", Content.Load<SpriteFont>(@"Fonts\YellowMagician")));
             fonts.Add(("comic", Content.Load<SpriteFont>(@"Fonts\ComicSans")));
+            fonts.Add(("bearpaw", Content.Load<SpriteFont>(@"Fonts\BEARPAW")));
+
+            boxes.Add(("Penguin", new Textbox(new List<string>(ReadTextFile(@"dialooog\pinguin.txt").Split('&')), Content.Load<SpriteFont>(@"Fonts\Penguin"), this)));
+            boxes.Add(("ocean", new Textbox(new List<string>(ReadTextFile(@"dialooog\ocean.txt").Split('&')), Content.Load<SpriteFont>(@"Fonts\BEARPAW"), this)));
+            boxes.Add(("cliff", new Textbox(new List<string>(new[]{"Thats seems unsteady..."}), Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
+            boxes.Add(("ship", new Textbox(new List<string>(new[] 
+            { "The ship has seen better days|A lot better days", "Like wow, this is sooo bad", "This is worse then that time I made a game in 48hours", "Maybe I should look for those batteries" }), Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
+
+            boxes.Add(("BatteryBox1", new Textbox(new List<string>(ReadTextFile(@"dialooog\batteri text\tom batteri station.txt").Split('&')), Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
+
+            nothing = Content.Load<Texture2D>("Nothing");
 
             pixel = Content.Load<Texture2D>("Black");
             background = Content.Load<Texture2D>(@"ui\textbubble\text bubble fancy");
-            zone1Track = Content.Load<SoundEffect>(@"music\mainmusic1");
-            zone1Track.Play();
+            //zone1Track = Content.Load<SoundEffect>(@"music\mainmusic1");
+            //zone1Track.Play();
 
             oldState = Keyboard.GetState();
 
-            currentZone = LoadZone1();
+            zoneCoordinates = new myPoint(startX, startY);
+            World = LoadZone1();
 
             Texture2D placeHolderTile = Content.Load<Texture2D>("john");
             //currentZone[0, 1].entities.Add(new LeaveTile(5,0,placeHolderTile,false,0,0,, this));
@@ -108,49 +123,41 @@ namespace TheJam
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            Map current = currentZone[zoneCoordinates.X, zoneCoordinates.Y];
+            Map current = World[zoneCoordinates.X, zoneCoordinates.Y];
             if (cutsceneMode) {
-
-
-                if(milliMove < cursorSpeed * says[pageNumber].Length) milliMove += gameTime.ElapsedGameTime.Milliseconds;
-                charCursor = milliMove / cursorSpeed;
-                
-
-                KeyboardState newstate = Keyboard.GetState();
-                if (newstate.IsKeyDown(Keys.Enter) && oldState.IsKeyUp(Keys.Enter))
-                {
-                    if (milliMove < cursorSpeed * says[pageNumber].Length) milliMove = cursorSpeed * says[pageNumber].Length;
-                    else if (pageNumber == says.Count - 1) cutsceneMode = false;
-                    else
-                    {
-                        pageNumber++;
-                        charCursor = 0;
-                        milliMove = 0;
-                    }
-                }
-                
-                oldState = newstate;
-
+                currentBox.boxUpdate(gameTime);
             }
             else
             {
-                foreach (Entity e in current.entities) e.Update(gameTime, currentZone[zoneCoordinates.X, zoneCoordinates.Y].entities);
+                foreach (Entity e in current.entities.FindAll(test => !(test is Player))) e.Update(gameTime, current.entities);
+                Entity player = current.entities.Find(test => test is Player);
+                if(player != null) player.Update(gameTime, current.entities);
+                current.Update(gameTime);
+                //if (Keyboard.GetState().IsKeyDown(Keys.C))
+                //{
+                //    //currentSay = "This is a placeHolder";
+                //    cutsceneMode = true;
+                //    charCursor = 0;
+                //    milliMove = 0;
+                //}
 
-                if (Keyboard.GetState().IsKeyDown(Keys.C))
-                {
-                    //currentSay = "This is a placeHolder";
-                    cutsceneMode = true;
-                    charCursor = 0;
-                    milliMove = 0;
-                }
-
-                if (Keyboard.GetState().IsKeyDown(Keys.F)) fadeGaol = 255;
-                if (fadeGaol - 17 > fadethrough) fadethrough += gameTime.ElapsedGameTime.Milliseconds;
-                else if (fadeGaol + 17 < fadethrough) fadethrough -= gameTime.ElapsedGameTime.Milliseconds;
-                else if (fadethrough != 0) fadeGaol = 0;
+                if (moveFadeGaol - 17 > moveFadethrough) moveFadethrough += gameTime.ElapsedGameTime.Milliseconds;
+                else if (moveFadeGaol + 17 < moveFadethrough) moveFadethrough -= gameTime.ElapsedGameTime.Milliseconds;
+                else if (moveFadethrough != 0) moveFadeGaol = 0;
                 // TODO: Add your update logic here
 
-                
+
+                //if (soundFadeGaol - 17 > soundFadethrough)
+                //{
+                //    soundFadethrough += gameTime.ElapsedGameTime.Milliseconds;
+                //
+                //}
+                //else if (soundFadeGaol + 17 < soundFadethrough) soundFadethrough -= gameTime.ElapsedGameTime.Milliseconds;
+                //else if (soundFadethrough != 0) soundFadeGaol = 0;
+                //music.Pause();
+                //music.Volume = (500 - soundFadethrough) / 500;
+                //music.Resume();
+
                 //BG anim
 
                 if (current.frameLength != 0)
@@ -166,12 +173,6 @@ namespace TheJam
                         current.millisLastFrame = 0;
                     }
                 }
-                millisplaying += gameTime.ElapsedGameTime.Milliseconds;
-                if (millisplaying > 54000)
-                {
-                    zone1Track.Play();
-                    millisplaying = 0;
-                }
             }
             base.Update(gameTime);
         }
@@ -184,32 +185,26 @@ namespace TheJam
 
             _spriteBatch.Begin(samplerState: SamplerState.PointClamp);
 
-            _spriteBatch.Draw(currentZone[zoneCoordinates.X, zoneCoordinates.Y].background, new Rectangle(offset, 0, scale * 8, scale * 8)
-                , new Rectangle(0, currentZone[zoneCoordinates.X, zoneCoordinates.Y].currentFrame * 128,128,128), Color.White);
-            //if (true)
-            //{
-            //    //_spriteBatch.DrawString(arial, "Heyo", Vector2.Zero, Color.Black, 0f, Vector2.Zero, 5, SpriteEffects.None, 0.8f);
-            //    //_spriteBatch.Draw(entities[1].sprite, new Rectangle(0,0,64,64), new Rectangle(0, 0, entities[1].sprite.Width, entities[1].sprite.Height), Color.White, rotation: 0f, origin: Vector2.Zero, effects: SpriteEffects.None, layerDepth: 0);
-            //
-            //    //
-            //}
+            _spriteBatch.Draw(World[zoneCoordinates.X, zoneCoordinates.Y].background, new Rectangle(offset, 0, scale * 8, scale * 8)
+                , new Rectangle(0, World[zoneCoordinates.X, zoneCoordinates.Y].currentFrame * 128,128,128), Color.White);
+           
 
-
-            
-
-            foreach (Entity e in currentZone[zoneCoordinates.X,zoneCoordinates.Y].entities) e.Draw(_spriteBatch);
+            foreach (Entity e in World[zoneCoordinates.X,zoneCoordinates.Y].entities) e.Draw(_spriteBatch);
             //_spriteBatch.DrawString(arial, $"{fadethrough} : {fadeGaol}", Vector2.Zero, Color.Black);
             _spriteBatch.DrawString(fonts[0].Item2, debug, Vector2.Zero, Color.Black);
-            if (fadethrough != 0) _spriteBatch.Draw(pixel, new Vector2(0, 0), new Rectangle(0, 0, 1, 1), new Color(0, 0, 0, fadethrough), 0f, Vector2.Zero, 1920, SpriteEffects.None, 0.6f);
+            if (moveFadethrough != 0) _spriteBatch.Draw(pixel, new Vector2(0, 0), new Rectangle(0, 0, 1, 1), new Color(0, 0, 0, moveFadethrough), 0f, Vector2.Zero, 1920, SpriteEffects.None, 0.6f);
 
+            //CutsceneMODE!
             if (cutsceneMode)
             {
-                _spriteBatch.Draw(pixel, new Vector2(0, 0), new Rectangle(0, 0, 1, 1), new Color(0, 0, 0, 200), 0f, Vector2.Zero, 1920, SpriteEffects.None, 0.6f);
+                _spriteBatch.Draw(pixel, new Vector2(0, 0), new Rectangle(0, 0, 1, 1), new Color(0, 0, 0, 230), 0f, Vector2.Zero, 1920, SpriteEffects.None, 0.6f);
                 _spriteBatch.Draw(background, new Vector2(offset + 12, 680),new Rectangle(0,0,100,32),Color.White, rotation: 0, Vector2.Zero, scale: 10f,SpriteEffects.None,layerDepth: 0.5f);
-                string said = says[pageNumber].Substring(0, charCursor);
-                _spriteBatch.DrawString(selectedFont, said, new Vector2(offset + 56, 800), Color.White);
+                
+                _spriteBatch.DrawString(currentBox.selectedFont, currentBox.output, new Vector2(offset + 56, 800), Color.White);
             }
+            if(currentBox != null)_spriteBatch.DrawString(fonts[0].Item2, currentBox.charCursor.ToString() + currentBox.interactionCount.ToString() + currentBox.milliMove.ToString(), Vector2.Zero, Color.Black);
 
+            //_spriteBatch.DrawString(fonts[0].Item2, World[zoneCoordinates.X,zoneCoordinates.Y].entities.Find(test => test is Player).x.ToString() + World[zoneCoordinates.X, zoneCoordinates.Y].entities.Find(test => test is Player).y.ToString(), Vector2.Zero, Color.Black);
             _spriteBatch.End();
 
 
@@ -218,89 +213,95 @@ namespace TheJam
             base.Draw(gameTime);
         }
 
-        public void textUpdate(GameTime gt)
+        public string ReadTextFile(string path)
         {
-
+            string value;
+            using (var stream = TitleContainer.OpenStream(Path.Combine(Content.RootDirectory, path)))
+            {
+                using (var reader = new StreamReader(stream))
+                {
+                    value = reader.ReadToEnd();
+                }
+            }
+            return value;
         }
 
         public Map[,] LoadZone1()
         {
-            Map[,] v = new Map[3, 3];
+            Map[,] v = new Map[5, 5];
             //generates a makeshift map
-            Texture2D nothing = Content.Load<Texture2D>("Nothing");
             Texture2D placeholder = Content.Load<Texture2D>("john");
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 5; i++)
             {
-                for (int j = 0; j < 3; j++)
+                for (int j = 0; j < 5; j++)
                 {
-                    Map generating = new Map(new List<Entity>(), placeholder);
-                    generating.entities.Add(new Player(1, 1, 6,Content.Load<Texture2D>(@"Main pig\Standing still"), this));
-                    //generating.entities.Add(new TouchEntity(4, 0, 5, true, Content.Load<Texture2D>("Button"), TouchEntity.Effects.Textbox, "Hello world", this));
-                    
-                    for (int u = 0; u < 9; u++) generating.entities.Add(new Entity(-1, u, 0, true, nothing, this));
-                    for (int u = 0; u < 8; u++) generating.entities.Add(new Entity(u, -1, 0, true, nothing, this));
-                    for (int u = 0; u < 9; u++) generating.entities.Add(new Entity(8, u, 0, true, nothing, this));
-                    for (int u = 0; u < 8; u++) generating.entities.Add(new Entity(u, 8, 0, true, nothing, this));
+                    Map generating;
+                    if (i == 0 && j == 3)
+                    {
+                        generating = new Map(new List<Entity>(), placeholder, Content.Load<SoundEffect>(@"music\rocket2"), Map.WallType.Free, this);
+                    }
+                        else if (i == 0 && j == 0) generating = new Map(new List<Entity>(), placeholder, Content.Load<SoundEffect>(@"music\bossfight_pussel"), Map.WallType.Free, this);
+                    else generating = new Map(new List<Entity>(),placeholder, 0, Content.Load < SoundEffect > (@"music\mainmusic1"),Map.WallType.Free,this);
                     generating.frameLength = 1000 / 4;
 
 
                     v[i, j] = generating;
                 }
             }
-            v[1, 2].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 1,2");
-            v[1, 2].entities.Add(new LeaveTile(4, 0, placeholder, false, 1, 1, 4, 7, this));
-            v[1, 2].entities.Add(new LeaveTile(7, 2, placeholder, false, 2, 2, 1, 2, this));
-            v[1, 2].entities.Add(new LeaveTile(0, 2, placeholder, false, 0, 2, 7, 2, this));
+
+            v[0,3].background = Content.Load<Texture2D>(@"Estetiska\skepp bg  0,3");
+            v[0,3].entities.Add(new LeaveTile(2, 7, nothing, false, 1, 0, 3, 3, true, this));
+            v[0,3].entities.Add(new TouchEntity(1, 2, 1, true, Content.Load<Texture2D>(@"Andra ents\batterihållare tom"), TouchEntity.Effects.Textbox, "BatteryBox1", this));
+
+
+            v[4,1].background = Content.Load<Texture2D>(@"Estetiska\öken bg 1,1");
+            v[3, 1].background = Content.Load<Texture2D>(@"Estetiska\öken bg 0,1");
+            
+
+            v[1, 2].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 1,2"); 
+            for (int i = 0; i < 8; i++) v[1, 2].entities.Add(new TouchEntity(i, 5, 0, true, nothing, TouchEntity.Effects.Textbox, "ocean", this));
+
 
             v[0, 0].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 0,0");
-            v[0, 0].entities.Add(new LeaveTile(5, 7, placeholder, false, 0, 1, 6, 0, this));
+            v[2, 0].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 2,0"); 
+            for (int i = 0; i < 8; i++) v[0, 2].entities.Add(new TouchEntity(i, 5, 0, true, nothing, TouchEntity.Effects.Textbox, "ocean", this));
+            for (int i = 0; i < 8; i++) v[0, 2].entities.Add(new TouchEntity(3, i, 0, true, nothing, TouchEntity.Effects.Textbox, "ocean", this));
 
-            v[2, 0].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 2,0");
-            v[2, 0].entities.Add(new LeaveTile(3, 7, placeholder, false, 2, 1, 1, 0, this));
 
             v[1, 0].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 1,0");
-            v[1, 0].entities.Add(new LeaveTile(1, 7, placeholder, false, 1, 1, 3, 0, this));
+            for (int i = 0; i < 8; i++)
+            {
+                v[1, 0].entities.Add(new TouchEntity(0, i, 1, true, nothing, TouchEntity.Effects.Textbox, "cliff", this));
+                v[1, 0].entities.Add(new TouchEntity(7, i, 1, true, nothing, TouchEntity.Effects.Textbox, "cliff", this));
+            }
+            v[1, 0].entities.Add(new Entity(1, 2, 1, true, nothing, this));
+            v[1, 0].entities.Add(new TouchEntity(2, 2, 1, true, nothing,TouchEntity.Effects.Textbox,"ship", this));
+            v[1, 0].entities.Add(new TouchEntity(4, 2, 1, true, nothing, TouchEntity.Effects.Textbox, "ship", this));
+            v[1, 0].entities.Add(new TouchEntity(5, 2, 1, true, nothing, TouchEntity.Effects.Textbox, "ship", this));
+            v[1, 0].entities.Add(new Entity(6, 2, 1, true, nothing, this));
+            v[1, 0].entities.Add(new LeaveTile(3, 2, nothing, false, 0, 3, 2, 6, true, this));
 
             v[2, 1].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 2,1");
-            v[2, 1].entities.Add(new LeaveTile(0, 2, placeholder, false, 1, 1, 7, 2, this));
-            v[2, 1].entities.Add(new LeaveTile(1, 0, placeholder, false, 2, 0, 1, 7, this));
+            for (int i = 0; i < 8; i++) v[2, 1].entities.Add(new TouchEntity(4, i, 0, true, nothing, TouchEntity.Effects.Textbox, "ocean", this));
 
             v[0, 1].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 0,1");
-            v[0, 1].entities.Add(new LeaveTile(7, 2, placeholder, false, 1, 1, 1, 6, this));
-            v[0, 1].entities.Add(new LeaveTile(4, 7, placeholder, false, 0, 2, 4, 0, this));
-            v[0, 1].entities.Add(new LeaveTile(6, 0, placeholder, false, 0, 0, 4, 7, this));
-
+            for (int i = 0; i < 8; i++)v[0, 1].entities.Add(new TouchEntity(3,i,0,true,nothing,TouchEntity.Effects.Textbox,"ocean",this));
+            
             v[1, 1].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 1,1");
-            v[1, 1].entities.Add(new LeaveTile(4, 7, placeholder, false, 1, 2,4,0, this));
-            v[1, 1].entities.Add(new LeaveTile(7, 2, placeholder, false, 2, 1, 0, 2, this));
-            v[1, 1].entities.Add(new LeaveTile(0, 6, placeholder, false, 0, 1, 7, 2, this));
-            v[1, 1].entities.Add(new LeaveTile(3, 0, placeholder, false, 1, 0, 3, 7, this));
-
-
             v[0, 2].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 0,2");
-            v[0, 2].entities.Add(new LeaveTile(4, 0, placeholder, false, 0, 1, 4, 7, this));
-            v[0, 2].entities.Add(new LeaveTile(7, 2, placeholder, false, 1, 2, 0, 2, this));
-            v[0, 2].frameLength = 1000 / 4;
-            //List<string> loadedText = new List<string>();
-            {
-                v[2, 2].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 2,2");
-                v[2, 2].entities.Add(new LeaveTile(4, 0, placeholder, false, 2, 1, 4, 7, this));
-                v[2, 2].entities.Add(new LeaveTile(0, 2, placeholder, false, 1, 2, 7, 2, this));
-                v[2, 2].frameLength = 1000 / 4;
-                 var filePath = Path.Combine(Content.RootDirectory, @"dialooog\pinguin.txt");
-                string peng;
-                using (var stream = TitleContainer.OpenStream(filePath))
-                {
-                    using (var reader = new StreamReader(stream))
-                    {
-                        peng = reader.ReadToEnd();
-                    }
-                }
-                v[2, 2].entities.Add(new TouchEntity(1, 1, framerate: 6, 0, true,
-                    Content.Load<Texture2D>(@"Andra karaktärer\penguin"), TouchEntity.Effects.Textbox, peng, this));
+            v[2, 2].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 2,2");
+            for (int i = 0; i < 8; i++) v[2, 2].entities.Add(new TouchEntity(4, i, 0, true, nothing, TouchEntity.Effects.Textbox, "ocean", this));
+            for (int i = 0; i < 8; i++) v[2, 2].entities.Add(new TouchEntity(i, 5, 0, true, nothing, TouchEntity.Effects.Textbox, "ocean", this));
 
 
-            }
+            v[startX, startY].entities.Add(new TouchEntity(1, 1, framerate: 6, 0, true,
+                Content.Load<Texture2D>(@"Andra karaktärer\penguin"), TouchEntity.Effects.Textbox, "Penguin", this));
+
+            v[2, 0].entities.Add(new TouchEntity(1, 1, framerate: 6, 0, true,
+                Content.Load<Texture2D>(@"Andra karaktärer\crobo"), TouchEntity.Effects.Textbox, "crobo", this));
+
+            v[startX, startY].entities.Add(new Player(3, 3, 6, Content.Load<Texture2D>(@"Main pig\Standing still"), this));
+
 
 
 
