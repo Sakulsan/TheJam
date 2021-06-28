@@ -27,7 +27,14 @@ namespace TheJam
 
         public override void Update(GameTime gt, List<Entity> enties)
         {
-            //if()
+            if (enties.Exists(test => test.sprite == game.ice && test.x == x && test.y == y))
+            {
+                if(sprite != game.crawlPig) { 
+                sprite = game.crawlPig;
+                    millismoved = 0;
+                }
+            }
+            else sprite = game.normalPig;
             KeyboardState newState = Keyboard.GetState();
             if ((newState.IsKeyDown(Keys.Left) || newState.IsKeyDown(Keys.A)) && !(oldState.IsKeyDown(Keys.Left) || oldState.IsKeyDown(Keys.A)))
                 if (!enties.Exists(test => test.collision && test.x == x - 1 && test.y == y)) x--;
@@ -38,7 +45,7 @@ namespace TheJam
             if ((newState.IsKeyDown(Keys.Down) || newState.IsKeyDown(Keys.S)) && !(oldState.IsKeyDown(Keys.Down) ||  oldState.IsKeyDown(Keys.S)))
                 if (!enties.Exists(test => test.collision && test.x == x  && test.y == y + 1)) y++;
             if ((newState.IsKeyDown(Keys.E)) && !(oldState.IsKeyDown(Keys.E))) {
-                Entity touched = enties.Find(test => test is TouchEntity &&
+                Entity touched = enties.Find(test => test is TouchEntity && !((TouchEntity)test).deactivated &&
                 ((test.x == x - 1 && test.y == y) ||
                 (test.x == x + 1 && test.y == y) ||
                 (test.x == x && test.y == y - 1) ||

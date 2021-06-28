@@ -148,3 +148,52 @@ C:\Users\shit6\Documents\GitHub\TheJam\obj\Debug\netcoreapp3.1\TheJam.AssemblyIn
 C:\Users\shit6\Documents\GitHub\TheJam\obj\Debug\netcoreapp3.1\TheJam.csproj.CoreCompileInputs.cache
 C:\Users\shit6\Documents\GitHub\TheJam\obj\Debug\netcoreapp3.1\TheJam.csproj.CopyComplete
 C:\Users\shit6\Documents\GitHub\TheJam\obj\Debug\netcoreapp3.1\TheJam.genruntimeconfig.cache
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\Batteri i is.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\batteri upp plockad.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\joe mama.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\Sarox.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\tom batteri station.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\skepp bg  0,3.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\öken bg 1,1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\music\alarm2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\music\bossfight_pussel.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\music\rocket2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\ocean.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Fonts\BEARPAW.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\music\is värld\bossfight_pussel.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\music\is värld\mainmusic1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\music\is värld\storm.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\music\item pickup.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\music\rymdskepp\alarm.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\music\rymdskepp\alarm2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\music\rymdskepp\rocket1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\music\rymdskepp\rocket2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\music\is_värld\bossfight_pussel.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\music\is_värld\mainmusic1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\music\is_värld\storm.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra karaktärer\Crobo.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\öken bg 0,1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra ents\batteri.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra ents\batterihållare 2 batterier.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra ents\batterihållare full.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra ents\batterihållare tom.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra ents\hatterihållare 1 batteri.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\batteri text\Batteri i is.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\batteri text\batteri upp plockad.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\batteri text\tom batteri station.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\tempe bg 3,2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra ents\isblock.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra karaktärer\Karen.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\music\sand_värld\Tempel.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra karaktärer\Child  (1).xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra karaktärer\Mother.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\öken bg 1,0.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\crab.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra karaktärer\Drogo.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\igo bg 4,2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra ents\batteri i is.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra ents\topphatt i is.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra ents\topphatt.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Main Pig\Crawling (1).xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\music\rymdskepp\alarm 3.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\music\sand_värld\sand.xnb
