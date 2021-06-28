@@ -10,6 +10,10 @@ namespace TheJam
 {
     class Player : Entity
     {
+        int goalX;
+        int goalY;
+        int millismoved;
+
         private KeyboardState oldState;
         public Player(int x, int y, Texture2D sprite, Game1 game) : base(x, y, 0,false, sprite, game)
         {
@@ -41,9 +45,16 @@ namespace TheJam
 
                 if (touched != null) ((TouchEntity)touched).Touch();
                     }
+            
 
             oldState = newState;
             base.Update(gt, enties);
+            if (goalX != x || goalY != y)
+            {
+                int xOffset = x - goalX;
+                int yOffset = y - goalY;
+                drawPosition = new Rectangle(x * game.scale + game.offset, y * game.scale, game.scale, game.scale);
+            }
         }
     }
 }
