@@ -27,6 +27,7 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Main Pig/Forward.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Main Pig/Piggo forward ex 1.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Main Pig/Standing still.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/music/mainmusic1.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Nothing.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/piggo.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Placeholder.jpg</File>
@@ -40,6 +41,7 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/ui/play.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
