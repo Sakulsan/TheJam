@@ -12,9 +12,12 @@ namespace TheJam
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+
+
         public Texture2D pixel;
         public Texture2D normalPig;
         public Texture2D crawlPig;
+        public Texture2D ice;
 
         public List<Entity> entities = new List<Entity>();
         public Entity Joe;
@@ -110,8 +113,9 @@ namespace TheJam
 
             
             normalPig = Content.Load<Texture2D>(@"Main pig\Standing still");
-            normalPig = Content.Load<Texture2D>(@"Main pig\Standing still");
+            crawlPig = Content.Load<Texture2D>(@"Main pig\Crawling (1)");
             nothing = Content.Load<Texture2D>("Nothing");
+            ice = Content.Load<Texture2D>(@"Andra ents\isblock");
 
             pixel = Content.Load<Texture2D>("Black");
             background = Content.Load<Texture2D>(@"ui\textbubble\text bubble fancy");
