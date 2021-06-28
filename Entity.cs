@@ -80,7 +80,14 @@ namespace TheJam
 
         public Effects toucheffect;
         public string data;
+        public int interactionCount = 0;
         public TouchEntity(int x, int y, int depth, bool collision, Texture2D sprite, Effects toucheffect, string data, Game1 gayme) : base(x, y, depth, collision, sprite, gayme)
+        {
+            this.toucheffect = toucheffect;
+            this.data = data;
+        }
+
+        public TouchEntity(int x, int y, int framerate, int depth, bool collision, Texture2D sprite, Effects toucheffect, string data, Game1 gayme) : base(x, y, framerate,depth, collision, sprite, gayme)
         {
             this.toucheffect = toucheffect;
             this.data = data;
@@ -88,10 +95,19 @@ namespace TheJam
 
         public void Touch()
         {
+            interactionCount++;
             switch (toucheffect)
             {
                 case Effects.Textbox:
-                    game.texting = true;
+                    game.cutsceneMode = true;
+                    string upcomingBoxes;
+                    string[] talks = data.Split('&');
+                    if (interactionCount > talks.Length) upcomingBoxes = talks[talks.Length - 1];
+                    else upcomingBoxes = talks[interactionCount - 1];
+                    game.says = new List<string>(upcomingBoxes.Split('|'));
+                    game.pageNumber = 0;
+                    game.milliMove = 0;
+                    game.charCursor = 0;
                     break;
                 case Effects.Teleport:
                     break;
