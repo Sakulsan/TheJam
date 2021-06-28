@@ -257,6 +257,12 @@
 /processorParam:TextureFormat=Color
 /build:Main Pig/Standing still.png
 
+#begin music/mainmusic1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:music/mainmusic1.wav
+
 #begin Nothing.png
 /importer:TextureImporter
 /processor:TextureProcessor
