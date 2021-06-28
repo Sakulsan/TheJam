@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/Placeholder.jpg</SourceFile>
-  <SourceTime>2021-06-27T20:26:17.657102+02:00</SourceTime>
-  <DestFile>C:/Users/mayal/OneDrive/Dokument/GitHub/TheJam/Content/bin/Windows/Content/Placeholder.xnb</DestFile>
-  <DestTime>2021-06-28T00:48:02.9676336+02:00</DestTime>
+  <SourceFile>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Placeholder.jpg</SourceFile>
+  <SourceTime>2021-06-27T18:28:10.4363992+02:00</SourceTime>
+  <DestFile>C:/Users/lukas/source/repos/TheJam/TheJam/Content/bin/Windows/Content/Placeholder.xnb</DestFile>
+  <DestTime>2021-06-28T12:49:36.6426861+02:00</DestTime>
   <Importer>TextureImporter</Importer>
-  <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
+  <ImporterTime>2020-08-10T16:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
-  <ProcessorTime>2020-08-10T18:17:54+02:00</ProcessorTime>
+  <ProcessorTime>2020-08-10T16:17:54+02:00</ProcessorTime>
   <Parameters>
     <Key>ColorKeyColor</Key>
     <Value>255,0,255,255</Value>
