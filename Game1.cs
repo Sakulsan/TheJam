@@ -87,8 +87,9 @@ namespace TheJam
 
             boxes.Add(("Penguin", new Textbox(new List<string>(ReadTextFile(@"dialooog\pinguin.txt").Split('&')), Content.Load<SpriteFont>(@"Fonts\Penguin"), this)));
             boxes.Add(("ocean", new Textbox(new List<string>(ReadTextFile(@"dialooog\ocean.txt").Split('&')), Content.Load<SpriteFont>(@"Fonts\BEARPAW"), this)));
+            boxes.Add(("cliff", new Textbox(new List<string>(new[]{"cliff"}), Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
 
-            
+
             nothing = Content.Load<Texture2D>("Nothing");
 
             pixel = Content.Load<Texture2D>("Black");
@@ -266,7 +267,10 @@ namespace TheJam
             v[2, 2].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 2,2");
             v[startX, startY].entities.Add(new TouchEntity(1, 1, framerate: 6, 0, true,
                 Content.Load<Texture2D>(@"Andra karaktärer\penguin"), TouchEntity.Effects.Textbox, "Penguin", this));
-            
+
+            v[2, 0].entities.Add(new TouchEntity(1, 1, framerate: 6, 0, true,
+                Content.Load<Texture2D>(@"Andra karaktärer\crobo"), TouchEntity.Effects.Textbox, "crobo", this));
+
             v[startX, startY].entities.Add(new Player(3, 3, 6, Content.Load<Texture2D>(@"Main pig\Standing still"), this));
 
 
