@@ -14,6 +14,7 @@ namespace TheJam
         public Texture2D pixel;
         public List<Entity> entities = new List<Entity>();
         public SpriteFont arial;
+        public List<(string, SpriteFont)> fonts = new List<(string, SpriteFont)>();
 
 
         public SoundEffect zone1Track;
@@ -35,6 +36,7 @@ namespace TheJam
         public int charCursor;
         public int pageNumber;
         public List<string> says = new List<string>();
+        public SpriteFont selectedFont;
         //public string currentSay = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor\nHeyo";
         
         Texture2D background;
@@ -73,7 +75,12 @@ namespace TheJam
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            arial = Content.Load<SpriteFont>(@"Arial");
+            arial = Content.Load<SpriteFont>(@"Fonts\Arial");
+            fonts.Add(("Arial", arial));
+            fonts.Add(("littletrobulegirl", Content.Load<SpriteFont>(@"Fonts\Penguin")));
+            fonts.Add(("YellowMagician", Content.Load<SpriteFont>(@"Fonts\YellowMagician")));
+            fonts.Add(("comic", Content.Load<SpriteFont>(@"Fonts\ComicSans")));
+
             pixel = Content.Load<Texture2D>("Black");
             background = Content.Load<Texture2D>(@"ui\textbubble\text bubble fancy");
             zone1Track = Content.Load<SoundEffect>(@"music\mainmusic1");
@@ -200,7 +207,7 @@ namespace TheJam
                 _spriteBatch.Draw(pixel, new Vector2(0, 0), new Rectangle(0, 0, 1, 1), new Color(0, 0, 0, 200), 0f, Vector2.Zero, 1920, SpriteEffects.None, 0.6f);
                 _spriteBatch.Draw(background, new Vector2(offset + 12, 680),new Rectangle(0,0,100,32),Color.White, rotation: 0, Vector2.Zero, scale: 10f,SpriteEffects.None,layerDepth: 0.5f);
                 string said = says[pageNumber].Substring(0, charCursor);
-                _spriteBatch.DrawString(arial, said, new Vector2(offset + 56, 800), Color.White);
+                _spriteBatch.DrawString(selectedFont, said, new Vector2(offset + 56, 800), Color.White);
             }
 
             _spriteBatch.End();
@@ -242,7 +249,7 @@ namespace TheJam
             }
             v[1, 2].background = Content.Load<Texture2D>(@"Estetiska\snövärld bg 1,2");
             v[1, 2].entities.Add(new LeaveTile(4, 0, placeholder, false, 1, 1, 4, 7, this));
-            v[1, 2].entities.Add(new LeaveTile(7, 2, placeholder, false, 2, 2, 0, 2, this));
+            v[1, 2].entities.Add(new LeaveTile(7, 2, placeholder, false, 2, 2, 1, 2, this));
             v[1, 2].entities.Add(new LeaveTile(0, 2, placeholder, false, 0, 2, 7, 2, this));
             v[1, 2].frameLength = 1000 / 4;
 
@@ -272,7 +279,7 @@ namespace TheJam
             v[2, 2].entities.Add(new LeaveTile(0, 2, placeholder, false, 1, 2, 7, 2, this));
             v[2, 2].frameLength = 1000 / 4;
             v[2, 2].entities.Add(new TouchEntity(1,1,framerate: 6,0,true,
-                Content.Load<Texture2D>(@"Andra karaktärer\penguin"),TouchEntity.Effects.Textbox,"I am a fucking penguin!|So what?\nYou are a pig!&Could you stop talking to me|Please",this));
+                Content.Load<Texture2D>(@"Andra karaktärer\penguin"),TouchEntity.Effects.Textbox, "comic¤I am a fucking penguin!|So what?\nYou are a pig!&Could you stop talking to me|Please", this));
 
             return v;
         }
