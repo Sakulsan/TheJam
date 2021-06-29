@@ -337,7 +337,7 @@ namespace TheJam
 
                         Joe.deactivated = false;
                         Joe = new TouchEntity(false, 2, 6, 3, 0, true, Content.Load<Texture2D>(@"Andra karaktärer\joe ner"), TouchEntity.Effects.trade,
-                            "Juice^JoeFavour^Thanks for that|I will show you the way^I am really thirsty", this);
+                            "Juice^JoeFavour^I am really thirsty|I could really use some well mixed Juice^Thanks for that|I will show you the way, only one\nSo pay attention", this);
                         Joe.deactivated = false;
                         World[3, 2].entities.Add(Joe);
 
@@ -639,7 +639,13 @@ namespace TheJam
             
                 v[0, 0].entities.Remove(puzzleEnts[1, 1]);
                 v[0, 0].entities.Remove(puzzleEnts[1, 2]);
-
+                v[0, 0].entities.Add(new Entity(0, 0, 0, true, nothing, this));
+                v[0, 0].entities.Add(new Entity(0, 2, 0, true, nothing, this));
+                v[0, 0].entities.Add(new Entity(0, 5, 0, true, nothing, this));
+                v[0, 0].entities.Add(new Entity(3, 5, 0, true, nothing, this));
+                v[0, 0].entities.Add(new Entity(3, 5, 0, true, nothing, this));
+                v[0, 0].entities.Add(new Entity(2, 3, 0, true, nothing, this));
+                v[0, 0].entities.Add(new Entity(6, 0, 0, true, nothing, this));
 
 
                 v[0, 0].entities.Remove(puzzleEnts[0, 0]);
