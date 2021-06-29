@@ -205,18 +205,6 @@
 /processorParam:TextureFormat=Color
 /build:black.png
 
-#begin button.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:button.png
-
 #begin dialooog/batteri text/Batteri i is.txt
 /copy:dialooog/batteri text/Batteri i is.txt
 
@@ -253,6 +241,18 @@
 /processorParam:TextureFormat=Color
 /build:Estetiska/igo bg 4,2.png
 
+#begin Estetiska/öken bg 0,0.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Estetiska/öken bg 0,0.png
+
 #begin Estetiska/öken bg 0,1.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -276,6 +276,30 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Estetiska/öken bg 1,0.png
+
+#begin Estetiska/öken bg 1,1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Estetiska/öken bg 1,1.png
+
+#begin Estetiska/skepp bg  0,3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Estetiska/skepp bg  0,3.png
 
 #begin Estetiska/snövärld bg 0,0.png
 /importer:TextureImporter
@@ -404,6 +428,13 @@
 /processorParam:TextureFormat=Compressed
 /build:Fonts/Arial.spritefont
 
+#begin Fonts/BEARPAW.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/BEARPAW.spritefont
+
 #begin Fonts/BlackCasper.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
@@ -482,6 +513,12 @@
 /processorParam:Quality=Best
 /build:ljud/music/item pickup.wav
 
+#begin ljud/music/rymdskepp/alarm 3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/rymdskepp/alarm 3.wav
+
 #begin ljud/music/rymdskepp/alarm.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
@@ -506,11 +543,29 @@
 /processorParam:Quality=Best
 /build:ljud/music/rymdskepp/rocket2.wav
 
+#begin ljud/music/sand_värld/sand.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/music/sand_värld/sand.wav
+
 #begin ljud/music/sand_värld/Tempel.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
 /build:ljud/music/sand_värld/Tempel.wav
+
+#begin Main Pig/Crawling (1).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Main Pig/Crawling (1).png
 
 #begin Main Pig/Forward.png
 /importer:TextureImporter
@@ -571,18 +626,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:piggo.png
-
-#begin Placeholder.jpg
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Placeholder.jpg
 
 #begin ui/textbubble/text bubble fancy.png
 /importer:TextureImporter
@@ -655,6 +698,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:ui/tileset ship/version 2/tileset 2.5 spaceship.png
+
+#begin ui/ui/kugg.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:ui/ui/kugg.png
 
 #begin ui/ui/pause.png
 /importer:TextureImporter
