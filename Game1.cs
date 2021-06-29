@@ -646,8 +646,6 @@ namespace TheJam
                 v[0, 0].entities.Add(new Entity(3, 5, 0, true, nothing, this));
                 v[0, 0].entities.Add(new Entity(2, 3, 0, true, nothing, this));
                 v[0, 0].entities.Add(new Entity(6, 0, 0, true, nothing, this));
-
-
                 v[0, 0].entities.Remove(puzzleEnts[0, 0]);
                 v[0, 0].entities.Remove(puzzleEnts[0, 2]);
                 v[0, 0].entities.Remove(puzzleEnts[0, 5]);
@@ -714,6 +712,16 @@ namespace TheJam
                 v[3, 2].entities.Remove(puzzleEnts[1, 5]);
                 v[3, 2].entities.Remove(puzzleEnts[0, 5]);
 
+
+                v[0, 0].entities.Add(new Entity(1, 2, 0, true, nothing, this));
+                v[0, 0].entities.Add(new Entity(1, 3, 0, true, nothing, this));
+                v[0, 0].entities.Add(new Entity(0, 2, 0, true, nothing, this));
+                v[0, 0].entities.Add(new Entity(0, 3, 0, true, nothing, this));
+                v[0, 0].entities.Add(new Entity(1, 4, 0, true, nothing, this));
+                v[0, 0].entities.Add(new Entity(0, 4, 0, true, nothing, this));
+                v[0, 0].entities.Add(new Entity(1, 5, 0, true, nothing, this)); 
+                v[0, 0].entities.Add(new Entity(0, 5, 0, true, nothing, this));
+                
                 puzzleEnts[5, 5].data = "true";
                 puzzleEnts[5, 4].data = "true";
                 puzzleEnts[6, 4].data = "true";
