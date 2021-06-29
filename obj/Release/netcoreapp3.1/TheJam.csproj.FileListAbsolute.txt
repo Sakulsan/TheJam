@@ -1,0 +1,175 @@
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra ents\batteri i is.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra ents\batteri.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra ents\batterihållare 2 batterier.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra ents\batterihållare full.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra ents\batterihållare tom.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra ents\Crobo Hat.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra ents\guldplatta.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra ents\hatterihållare 1 batteri.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra ents\isblock.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra ents\kaktusfrukt.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra ents\kaktusjuice.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra ents\konstig_spak.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra ents\napp_spak.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra ents\Rullband.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra ents\topphatt i is.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra ents\topphatt.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra karaktärer\bottom left.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra karaktärer\bottom right.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra karaktärer\Child  (1).xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra karaktärer\Crobo.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra karaktärer\Drogo.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra karaktärer\joe ner.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra karaktärer\joe upp.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra karaktärer\Karen.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra karaktärer\Mother.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra karaktärer\penguin.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra karaktärer\Strong.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra karaktärer\top left.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Andra karaktärer\top right.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Arial.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\BG\snövärd bg12.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\black.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\button.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\Batteri i is.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\batteri text\Batteri i is.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\batteri text\batteri upp plockad.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\batteri text\tom batteri station.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\batteri upp plockad.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\crab.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\drake_stor.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\joe mama.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\joe mama2.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\joe mama3.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\liten_drake.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\ocean.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\pinguin.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\Pingvin_babu.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\Pingvin_parent.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\Pingvin_skämt_igloo.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\Sarox.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\dialooog\tom batteri station.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\igo bg 4,2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\skepp bg  0,3.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\snövärd bg12.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\snövärld bg 0,0.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\snövärld bg 0,1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\snövärld bg 0,2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\snövärld bg 1,0.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\snövärld bg 1,1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\snövärld bg 1,2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\snövärld bg 2,0.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\snövärld bg 2,1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\snövärld bg 2,2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\stoen bg 1,0.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\stoen bg 1,1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\stoen bg 2,0.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\tempe bg 3,2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\öken bg 0,0.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\öken bg 0,1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\öken bg 1,0.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Estetiska\öken bg 1,1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Fonts\Arial.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Fonts\BEARPAW.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Fonts\BlackCasper.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Fonts\clutchee.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Fonts\ComicSans.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Fonts\Gladifilthefte.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Fonts\Penguin.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Fonts\YellowMagician.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\John.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\crab1(do not use).xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\crab2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\dator.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\dragon\dragon1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\dragon\dragon2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\drowning1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\joe\joe ice.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\joe\joe1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\joe\joe2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\joe\joe3.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\joe\joe4.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\joe\silence.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\penguin\babypenguin.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\penguin\dadpenguin.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\penguin\mainpenguin1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\penguin\mainpenguin2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\snösteg\snö movement1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\snösteg\variation 1 snösteg.wma
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\snösteg\variation 1 snösteg.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\snösteg\variation 2 snösteg.wma
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\snösteg\variation 2 snösteg.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\snösteg\variation 3 snösteg.wma
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\ljudeffekter\snösteg\variation 3 snösteg.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\music\is värld\bossfight_pussel.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\music\is värld\mainmusic1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\music\is värld\storm.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\music\is_värld\bossfight_pussel.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\music\is_värld\mainmusic1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\music\is_värld\storm.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\music\item pickup.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\music\rymdskepp\alarm 3.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\music\rymdskepp\alarm.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\music\rymdskepp\alarm2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\music\rymdskepp\rocket1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\music\rymdskepp\rocket2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\music\sand_värld\sand.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ljud\music\sand_värld\Tempel.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Main Pig\Crawling (1).xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Main Pig\Drowning.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Main Pig\Forward.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Main Pig\Piggo forward ex 1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Main Pig\Standing still.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\mixer.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\music\alarm2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\music\bossfight_pussel.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\music\mainmusic1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\music\rocket2.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Nothing.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Penguin.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\piggo.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\Placeholder.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ui\textbubble\text bubble fancy.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ui\textbubble\text bubble simple.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ui\tileset ship\version 1\tileset 1.5 spaceship.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ui\tileset ship\version 1\tileset spaceship 1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ui\tileset ship\version 2\tileset 2 spaceship.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ui\tileset ship\version 2\tileset 2.5 spaceship.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ui\ui\interact_maybe.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ui\ui\kugg.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ui\ui\pause.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\ui\ui\play.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Content\YellowMagician.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\TheJam.exe
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\TheJam.deps.json
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\TheJam.runtimeconfig.json
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\TheJam.runtimeconfig.dev.json
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\TheJam.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\TheJam.pdb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\Microsoft.VisualBasic.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\SharpDX.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\SharpDX.Direct2D1.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\SharpDX.Direct3D11.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\SharpDX.Direct3D9.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\SharpDX.DXGI.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\SharpDX.Mathematics.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\SharpDX.MediaFoundation.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\SharpDX.XAudio2.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\SharpDX.XInput.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\runtimes\osx\native\libuv.dylib
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Release\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\obj\Release\netcoreapp3.1\TheJam.AssemblyInfoInputs.cache
+C:\Users\lukas\source\repos\TheJam\TheJam\obj\Release\netcoreapp3.1\TheJam.AssemblyInfo.cs
+C:\Users\lukas\source\repos\TheJam\TheJam\obj\Release\netcoreapp3.1\TheJam.csproj.CopyComplete
+C:\Users\lukas\source\repos\TheJam\TheJam\obj\Release\netcoreapp3.1\TheJam.dll
+C:\Users\lukas\source\repos\TheJam\TheJam\obj\Release\netcoreapp3.1\TheJam.pdb

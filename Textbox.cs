@@ -66,7 +66,8 @@ namespace TheJam
                 pages = says[interactionCount].Split('|');
 
             }
-            else pages = says[1].Split('|');
+            else if(says.Count == 2)pages = says[1].Split('|');
+            else  pages = says[0].Split('|');
             string tmp = pages[pageNumber];
 
             if (sfx == null && talksfxs[0] != null) { sfx = talksfxs[0].CreateInstance();

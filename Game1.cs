@@ -454,8 +454,9 @@ namespace TheJam
 "Astrid Kronflall: Game designer, enviroment design and misc \nart.\n\n" +
 "Maya Uhlin Hellerstedt: game designer, enviroment design, \ndesigner of JOE and quest objects.\n\n" +
 "Hiwa Otto Holst:game designer, character design, animation, \ncook and dialogue writer.\n\n" +
-"Neddie boi Bergsrom: game designer, background music creator, \nsound effect recorder / editor, voice actor and dialogue writer.\n\n" +
-"John Love Sandholm: game designer, background music creator, \nsound effect recorder / editor, voice actor and dialogue writer.\n\nFaranak Jasemynejad: Translator.", new Vector2(offset + 140, 450), Color.Black);
+"Neddie boi Bergsrom: game designer, background music creator, \nsound effect recorder / editor, voice actor and dialogue writer.\n\n"+
+"Viktor Langelotz: Game designer, assistant programer\n\n" + 
+"John Love Sandholm: game designer, background music creator, \nsound effect recorder / editor, voice actor and dialogue writer.\n\nFaranak Jasemynejad: Translator.", new Vector2(offset + 140, 400), Color.Black);
             }
     _spriteBatch.End();
 
