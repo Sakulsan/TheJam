@@ -169,6 +169,30 @@
 /processorParam:TextureFormat=Color
 /build:Andra karaktärer/Drogo.png
 
+#begin Andra karaktärer/joe ner.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/joe ner.png
+
+#begin Andra karaktärer/joe upp.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/joe upp.png
+
 #begin Andra karaktärer/Karen.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -525,18 +549,6 @@
 /processorParam:Quality=Best
 /build:ljud/ljudeffekter/crab2.wav
 
-#begin ljud/ljudeffekter/crab2.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:ljud/ljudeffekter/crab2.wav
-
-#begin ljud/ljudeffekter/joe/joe1.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:ljud/ljudeffekter/joe/joe1.wav
-
 #begin ljud/ljudeffekter/joe/joe1.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
@@ -560,521 +572,6 @@
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
 /build:ljud/ljudeffekter/joe/joe4.wav
-
-#begin ljud/ljudeffekter/ljudeffekter jamm.aup
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm.aup
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808005.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808005.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080804c.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080804c.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808067.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808067.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808082.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808082.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08080a4.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08080a4.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08080f4.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08080f4.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080812a.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080812a.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808150.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808150.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080816e.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080816e.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808183.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808183.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08081b9.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08081b9.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08081f7.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08081f7.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808233.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808233.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08082b1.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08082b1.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08082c9.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08082c9.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08082cd.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08082cd.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08082dc.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08082dc.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08082ed.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08082ed.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08082ee.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08082ee.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080830b.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080830b.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808317.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808317.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080835a.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080835a.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808376.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808376.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080837d.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080837d.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08083ed.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08083ed.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080840b.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080840b.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808431.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808431.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08084c6.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08084c6.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08084e5.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08084e5.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808525.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808525.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080852a.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080852a.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080853b.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080853b.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08085b1.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08085b1.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08085be.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08085be.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08085e4.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08085e4.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08085f0.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08085f0.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808655.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808655.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808657.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808657.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808666.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808666.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08086ac.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08086ac.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08086fc.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08086fc.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080872e.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080872e.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080873f.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080873f.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080877c.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080877c.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808781.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808781.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808783.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808783.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08087aa.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08087aa.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08087b7.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08087b7.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08087d1.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08087d1.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08087e0.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08087e0.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808828.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808828.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080887d.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080887d.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08088ea.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08088ea.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808904.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808904.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808947.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808947.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080899a.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e080899a.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08089a0.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08089a0.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08089b6.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08089b6.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08089e6.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e08089e6.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808a00.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808a00.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808a02.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808a02.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808a1f.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808a1f.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808a7b.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808a7b.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808a7c.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808a7c.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808ab2.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808ab2.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808aca.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808aca.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808ad7.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808ad7.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808b17.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808b17.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808b48.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808b48.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808bd7.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808bd7.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808c0d.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808c0d.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808c1c.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808c1c.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808c55.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808c55.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808c58.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808c58.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808c8a.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808c8a.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808cd7.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808cd7.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808ceb.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808ceb.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808cf0.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808cf0.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808cf8.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808cf8.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808cfa.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808cfa.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808d31.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808d31.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808d3f.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808d3f.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808d4b.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808d4b.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808d53.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808d53.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808d59.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808d59.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808d9b.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808d9b.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808dbc.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808dbc.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808dbe.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808dbe.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808e1f.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808e1f.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808e50.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808e50.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808e6b.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808e6b.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808e96.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808e96.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808e97.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808e97.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808ea8.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808ea8.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808eaf.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808eaf.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808ebb.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808ebb.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808ec3.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808ec3.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808ee0.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808ee0.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808ee3.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808ee3.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808f4e.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808f4e.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808f96.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808f96.au
-
-#begin ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808fe1.au
-/importer:
-/processor:
-/build:ljud/ljudeffekter/ljudeffekter jamm_data/e08/d08/e0808fe1.au
 
 #begin ljud/ljudeffekter/penguin/babypenguin.wav
 /importer:WavImporter
@@ -1201,6 +698,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Main Pig/Crawling (1).png
+
+#begin Main Pig/Drowning.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Main Pig/Drowning.png
 
 #begin Main Pig/Forward.png
 /importer:TextureImporter
@@ -1333,6 +842,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:ui/tileset ship/version 2/tileset 2.5 spaceship.png
+
+#begin ui/ui/interact_maybe.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:ui/ui/interact_maybe.png
 
 #begin ui/ui/kugg.png
 /importer:TextureImporter

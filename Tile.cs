@@ -43,8 +43,14 @@ namespace TheJam
                 game.moveFadethrough = 200;
                 game.soundFadeGaol = 500;
                 game.World[game.zoneCoordinates.X, game.zoneCoordinates.Y].entities.Remove(player);
+                foreach (Entity e in game.hud.Values)
+                    game.World[game.zoneCoordinates.X, game.zoneCoordinates.Y].entities.Remove(e);
+
                 game.zoneCoordinates = new myPoint(leaveX, leaveY);
-                game.World[game.zoneCoordinates.X, game.zoneCoordinates.Y].entities.Add(player);
+
+                game.World[game.zoneCoordinates.X, game.zoneCoordinates.Y].entities.Add(player); 
+                foreach (Entity e in game.hud.Values)
+                    game.World[game.zoneCoordinates.X, game.zoneCoordinates.Y].entities.Add(e);
                 player.x = spawnX;
                 player.y = spawnY;
             }

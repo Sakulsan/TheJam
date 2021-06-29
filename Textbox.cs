@@ -21,14 +21,17 @@ namespace TheJam
         public int interactionCount = 0;
         public Game1 game;
         public string output = "";
+        public bool cutoff;
         public SoundEffectInstance sfx;
         KeyboardState oldState = Keyboard.GetState();
+        int pretime = 0;
 
-        public Textbox(List<string> says, SoundEffect[] talksfxs, SpriteFont selectedFont,Game1 game)
+        public Textbox(List<string> says, bool cutoff, SoundEffect[] talksfxs, SpriteFont selectedFont,Game1 game)
         {
             this.game = game;
             this.says = says;
             this.talksfxs = talksfxs;
+            this.cutoff = cutoff;
             this.selectedFont = selectedFont;
             
             //if (interactionCount > talks.Length) upcomingBoxes = talks[talks.Length - 1];
@@ -39,7 +42,7 @@ namespace TheJam
             this.selectedFont = selectedFont;
         }
 
-        public void newTalk()
+        public void newTalk(GameTime gameTime)
         {
             pageNumber = 0;
             milliMove = 0;
@@ -51,15 +54,22 @@ namespace TheJam
             sfx.Volume = 1f;
             sfx.Play();
             interactionCount++;
+            pretime = gameTime.ElapsedGameTime.Milliseconds;
         }
 
         public void boxUpdate(GameTime gameTime)
         {
             string[] pages = says[interactionCount].Split('|');
             string tmp = pages[pageNumber];
-            
 
-            if (milliMove < cursorSpeed * tmp.Length) milliMove += gameTime.ElapsedGameTime.Milliseconds;
+            if (sfx == null && talksfxs[0] != null) { sfx = talksfxs[0].CreateInstance();
+                sfx.Play();
+            }
+            int time;
+            if (pretime > 30) time = pretime - gameTime.ElapsedGameTime.Milliseconds;
+            else time = gameTime.ElapsedGameTime.Milliseconds;
+            if (milliMove < cursorSpeed * tmp.Length) milliMove += time;
+            else if (cutoff) sfx.Stop();
             charCursor = milliMove / cursorSpeed;
             KeyboardState newstate = Keyboard.GetState();
             if (newstate.IsKeyDown(Keys.E) && oldState.IsKeyUp(Keys.E))
@@ -88,6 +98,7 @@ namespace TheJam
                     }
                     else
                     {
+                        if(sfx != null)
                         sfx.Stop();
                         sfx = talksfxs[0].CreateInstance();
                         sfx.Play();

@@ -12,7 +12,7 @@ namespace TheJam
     {
         public int x;
         public int y;
-        decimal frameLength;
+        public decimal frameLength;
         int currentFrame = 0;
         int millisLastFrame = 0;
         public int depth;
@@ -21,6 +21,7 @@ namespace TheJam
         public bool collision;
         public Game1 game;
         public bool deactivated = false;
+
 
 
         public Entity(int x, int y, int depth, bool collision, Texture2D sprite, Game1 game)
@@ -104,7 +105,7 @@ namespace TheJam
             this.deactivated = deactivated;
         }
 
-        public void Touch()
+        public void Touch(GameTime gt)
         {
             interactionCount++;
             switch (toucheffect)
@@ -113,7 +114,7 @@ namespace TheJam
                     //string font = data.Substring(0, data.IndexOf('*'));
                     //List<string> talks = new List<string>(data.Substring(data.IndexOf('*') + 1).Split('&'));
                     game.currentBox = game.boxes.Find(test => test.Item1 == data).Item2;
-                    game.currentBox.newTalk();
+                    game.currentBox.newTalk(gt);
                     break;
                 case Effects.Teleport:
                     break;
@@ -126,7 +127,7 @@ namespace TheJam
                     
 
                     game.achievments.Add(s[0]);
-                    game.currentBox = new Textbox(new List<string>(new[] { "You have picked up: " + s[0] } ), game.placeHolderSounds, game.fonts[0].Item2,game);
+                    game.currentBox = new Textbox(new List<string>(new[] { "You have picked up: " + s[0] } ),false, game.placeHolderSounds, game.fonts[0].Item2,game);
                     deactivated = true;
                     game.cutsceneMode = true;
                     if(s.Length > 1)
@@ -158,7 +159,7 @@ namespace TheJam
 
                         if (game.achievments.Contains(s[0])) { 
                         game.achievments.Remove(s[0]);
-                        game.currentBox = new Textbox(new List<string>(new[] { "You have used: " + s[0] }), game.placeHolderSounds, game.fonts[0].Item2, game);
+                        game.currentBox = new Textbox(new List<string>(new[] { "You have used: " + s[0] }),false, game.placeHolderSounds, game.fonts[0].Item2, game);
                         deactivated = true;
                         game.cutsceneMode = true;
                         if (s.Length > 2)
@@ -186,7 +187,7 @@ namespace TheJam
                         }
                         else
                         {
-                            game.currentBox = new Textbox(new List<string>(new[] { s[1] }),game.placeHolderSounds, game.fonts[0].Item2, game);
+                            game.currentBox = new Textbox(new List<string>(new[] { s[1] }),false,game.placeHolderSounds, game.fonts[0].Item2, game);
                             game.cutsceneMode = true;
                         }
                     }

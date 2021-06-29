@@ -9,6 +9,7 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/batterihållare 2 batterier.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/batterihållare full.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/batterihållare tom.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/Crobo Hat.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/hatterihållare 1 batteri.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/isblock.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/topphatt i is.png</File>
@@ -16,9 +17,12 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/Child  (1).png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/Crobo.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/Drogo.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/joe ner.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/joe upp.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/Karen.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/Mother.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/penguin.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/Strong.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/black.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/igo bg 4,2.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/öken bg 0,0.png</File>
@@ -45,6 +49,20 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Fonts/Penguin.spritefont</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Fonts/YellowMagician.spritefont</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/John.jpg</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/crab1(do not use).wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/crab2.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/joe/joe1.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/joe/joe2.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/joe/joe3.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/joe/joe4.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/penguin/babypenguin.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/penguin/dadpenguin.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/penguin/mainpenguin1.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/penguin/mainpenguin2.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/snösteg/snö movement1.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/snösteg/variation 1 snösteg.mp3</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/snösteg/variation 2 snösteg.mp3</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/snösteg/variation 3 snösteg.mp3</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/is_värld/bossfight_pussel.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/is_värld/mainmusic1.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/is_värld/storm.wav</File>
@@ -57,6 +75,7 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/sand_värld/sand.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/music/sand_värld/Tempel.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Main Pig/Crawling (1).png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Main Pig/Drowning.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Main Pig/Forward.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Main Pig/Piggo forward ex 1.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Main Pig/Standing still.png</File>
@@ -68,11 +87,32 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/tileset ship/version 1/tileset spaceship 1.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/tileset ship/version 2/tileset 2 spaceship.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/tileset ship/version 2/tileset 2.5 spaceship.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/ui/interact_maybe.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/ui/kugg.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/ui/pause.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/ui/play.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
