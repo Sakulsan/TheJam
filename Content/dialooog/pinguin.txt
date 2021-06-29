@@ -37,7 +37,7 @@ Where do penguins keep their money?|In a snow bank, of course! &What do you call
 |Lost!
 &How do penguins drink their Coca-Cola?
 |On the rocks.
-&What’s black and white and goes round and round?
+&What's black and white and goes round and round?
 |A penguin in a revolving door.
 &Why do two penguins in a nest always agree?
 |Because they don't want to fall out.
@@ -52,16 +52,18 @@ Where do penguins keep their money?|In a snow bank, of course! &What do you call
 &What do penguins catch at night?
 |Starfish.
 &What do penguins sing on a birthday?
-|“Freeze a Jolly Good Fellow.”
-&A man in a movie theater notices what looks like a penguin sitting next to him.
-|“Are you a penguin?” asks the man, surprised.
-|“Yes,” says the penguin.
-|“What are you doing at the movies?” he asks.
-|“Well,” replies the penguin, “I really liked the book.”
+|"Freeze a Jolly Good Fellow."
+&A man in a movie theater notices what looks 
+like a penguin sitting next to him.
+|"Are you a penguin?" asks the man, surprised.
+|"Yes," says the penguin.
+|"What are you doing at the movies?" he asks.
+|"Well," replies the penguin, "I really liked the book."
 &Why shouldn't you write a book on penguins?
 |Because writing a book on paper is much easier!
-&When I meet new people, I always talk about my giant pet penguin…
+&When I meet new people, I always talk about 
+my giant pet penguin...
 |It's a good icebreaker.
 &Why do polar bears and penguins not get along?
 |Because they are polar opposites.
-&Why don’t you ever see penguins in Great Britain?|Because they're scared of Wales!&Why didn't the penguin jump off the iceberg?|He got cold feet.&Why don't penguins fly?|Because they're not tall enough to be pilots.&How did the penguin pass its driving test?|It winged it!&Why do penguins wear glasses?|To help their ice-sight.&What do penguins drink in the summer?|Iced tea.&What is a penguin's favorite movie?|Frozen.&What shoes do penguins wear in the summer?|Flipper flops.&A penguin walks into a bar…|The bartender looks up and says, “Hey, listen, these things don't fly around here.”&How does a penguin cook burgers?|With his flippers.&Why do penguins always carry fish in their beaks?|They don't have any pockets!&What do penguins wear on their feet at nighttime?|Slippers&What is black and white and red all over?|A sun burnt penguin!&What are the oldest animals?|Zebras and Penguins because they're in black and white.&How do Penguins finish a race?|They pengwin.&Can a penguin fly?|No, but a toucan.
+&Why don't you ever see penguins in Great Britain?|Because they're scared of Wales!&Why didn't the penguin jump off the iceberg?|He got cold feet.&Why don't penguins fly?|Because they're not tall enough to be pilots.&How did the penguin pass its driving test?|It winged it!&Why do penguins wear glasses?|To help their ice-sight.&What do penguins drink in the summer?|Iced tea.&What is a penguin's favorite movie?|Frozen.&What shoes do penguins wear in the summer?|Flipper flops.&A penguin walks into a bar...|The bartender looks up and says, "Hey, listen, these things don't fly around here."&How does a penguin cook burgers?|With his flippers.&Why do penguins always carry fish in their beaks?|They don't have any pockets!&What do penguins wear on their feet at nighttime?|Slippers&What is black and white and red all over?|A sun burnt penguin!&What are the oldest animals?|Zebras and Penguins because they're in black and white.&How do Penguins finish a race?|They pengwin.&Can a penguin fly?|No, but a toucan.
