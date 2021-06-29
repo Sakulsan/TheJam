@@ -73,6 +73,30 @@
 /processorParam:TextureFormat=Color
 /build:Andra ents/batterihållare tom.png
 
+#begin Andra ents/Crobo Hat.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra ents/Crobo Hat.png
+
+#begin Andra ents/guldplatta.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra ents/guldplatta.png
+
 #begin Andra ents/hatterihållare 1 batteri.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -97,6 +121,66 @@
 /processorParam:TextureFormat=Color
 /build:Andra ents/isblock.png
 
+#begin Andra ents/kaktusfrukt.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra ents/kaktusfrukt.png
+
+#begin Andra ents/kaktusjuice.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra ents/kaktusjuice.png
+
+#begin Andra ents/konstig_spak.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra ents/konstig_spak.png
+
+#begin Andra ents/napp_spak.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra ents/napp_spak.png
+
+#begin Andra ents/Rullband.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra ents/Rullband.png
+
 #begin Andra ents/topphatt i is.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -120,6 +204,30 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Andra ents/topphatt.png
+
+#begin Andra karaktärer/bottom left.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/bottom left.png
+
+#begin Andra karaktärer/bottom right.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/bottom right.png
 
 #begin Andra karaktärer/Child  (1).png
 /importer:TextureImporter
@@ -157,6 +265,30 @@
 /processorParam:TextureFormat=Color
 /build:Andra karaktärer/Drogo.png
 
+#begin Andra karaktärer/joe ner.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/joe ner.png
+
+#begin Andra karaktärer/joe upp.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/joe upp.png
+
 #begin Andra karaktärer/Karen.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -193,6 +325,42 @@
 /processorParam:TextureFormat=Color
 /build:Andra karaktärer/penguin.png
 
+#begin Andra karaktärer/Strong.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/Strong.png
+
+#begin Andra karaktärer/top left.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/top left.png
+
+#begin Andra karaktärer/top right.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/top right.png
+
 #begin black.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -217,14 +385,35 @@
 #begin dialooog/crab.txt
 /copy:dialooog/crab.txt
 
+#begin dialooog/drake_stor.txt
+/copy:dialooog/drake_stor.txt
+
 #begin dialooog/joe mama.txt
 /copy:dialooog/joe mama.txt
+
+#begin dialooog/joe mama2.txt
+/copy:dialooog/joe mama2.txt
+
+#begin dialooog/joe mama3.txt
+/copy:dialooog/joe mama3.txt
+
+#begin dialooog/liten_drake.txt
+/copy:dialooog/liten_drake.txt
 
 #begin dialooog/ocean.txt
 /copy:dialooog/ocean.txt
 
 #begin dialooog/pinguin.txt
 /copy:dialooog/pinguin.txt
+
+#begin dialooog/Pingvin_babu.txt
+/copy:dialooog/Pingvin_babu.txt
+
+#begin dialooog/Pingvin_parent.txt
+/copy:dialooog/Pingvin_parent.txt
+
+#begin dialooog/Pingvin_skämt_igloo.txt
+/copy:dialooog/Pingvin_skämt_igloo.txt
 
 #begin dialooog/Sarox.txt
 /copy:dialooog/Sarox.txt
@@ -409,6 +598,42 @@
 /processorParam:TextureFormat=Color
 /build:Estetiska/snövärld bg 2,2.png
 
+#begin Estetiska/stoen bg 1,0.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Estetiska/stoen bg 1,0.png
+
+#begin Estetiska/stoen bg 1,1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Estetiska/stoen bg 1,1.png
+
+#begin Estetiska/stoen bg 2,0.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Estetiska/stoen bg 2,0.png
+
 #begin Estetiska/tempe bg 3,2.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -489,6 +714,102 @@
 /processorParam:TextureFormat=Color
 /build:John.jpg
 
+#begin ljud/ljudeffekter/crab1(do not use).wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/crab1(do not use).wav
+
+#begin ljud/ljudeffekter/crab2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/crab2.wav
+
+#begin ljud/ljudeffekter/dator.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/dator.wav
+
+#begin ljud/ljudeffekter/dragon/dragon1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/dragon/dragon1.wav
+
+#begin ljud/ljudeffekter/dragon/dragon2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/dragon/dragon2.wav
+
+#begin ljud/ljudeffekter/drowning1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/drowning1.wav
+
+#begin ljud/ljudeffekter/joe/joe ice.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/joe/joe ice.wav
+
+#begin ljud/ljudeffekter/joe/silence.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/joe/silence.wav
+
+#begin ljud/ljudeffekter/penguin/babypenguin.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/penguin/babypenguin.wav
+
+#begin ljud/ljudeffekter/penguin/dadpenguin.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/penguin/dadpenguin.wav
+
+#begin ljud/ljudeffekter/penguin/mainpenguin1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/penguin/mainpenguin1.wav
+
+#begin ljud/ljudeffekter/penguin/mainpenguin2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/penguin/mainpenguin2.wav
+
+#begin ljud/ljudeffekter/snösteg/snö movement1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/snösteg/snö movement1.wav
+
+#begin ljud/ljudeffekter/snösteg/variation 1 snösteg.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/snösteg/variation 1 snösteg.mp3
+
+#begin ljud/ljudeffekter/snösteg/variation 2 snösteg.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/snösteg/variation 2 snösteg.mp3
+
+#begin ljud/ljudeffekter/snösteg/variation 3 snösteg.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/snösteg/variation 3 snösteg.mp3
+
 #begin ljud/music/is_värld/bossfight_pussel.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
@@ -567,6 +888,18 @@
 /processorParam:TextureFormat=Color
 /build:Main Pig/Crawling (1).png
 
+#begin Main Pig/Drowning.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Main Pig/Drowning.png
+
 #begin Main Pig/Forward.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -602,6 +935,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Main Pig/Standing still.png
+
+#begin mixer.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:mixer.png
 
 #begin Nothing.png
 /importer:TextureImporter
@@ -698,6 +1043,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:ui/tileset ship/version 2/tileset 2.5 spaceship.png
+
+#begin ui/ui/interact_maybe.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:ui/ui/interact_maybe.png
 
 #begin ui/ui/kugg.png
 /importer:TextureImporter
