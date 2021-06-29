@@ -20,6 +20,8 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/Rullband.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/topphatt i is.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/topphatt.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/bottom left.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/bottom right.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/Child  (1).png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/Crobo.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/Drogo.png</File>
@@ -29,6 +31,8 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/Mother.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/penguin.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/Strong.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/top left.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/top right.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/black.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/igo bg 4,2.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/öken bg 0,0.png</File>
@@ -60,6 +64,9 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/John.jpg</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/crab1(do not use).wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/crab2.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/dator.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/dragon/dragon1.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/dragon/dragon2.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/drowning1.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/joe/joe ice.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/joe/silence.wav</File>
@@ -87,6 +94,7 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Main Pig/Forward.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Main Pig/Piggo forward ex 1.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Main Pig/Standing still.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/mixer.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Nothing.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/piggo.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/textbubble/text bubble fancy.png</File>
@@ -101,6 +109,14 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/ui/play.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

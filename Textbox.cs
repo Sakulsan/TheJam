@@ -60,7 +60,13 @@ namespace TheJam
 
         public void boxUpdate(GameTime gameTime)
         {
-            string[] pages = says[interactionCount].Split('|');
+            string[] pages;
+            if (interactionCount < says.Count)
+            {
+                pages = says[interactionCount].Split('|');
+
+            }
+            else pages = says[1].Split('|');
             string tmp = pages[pageNumber];
 
             if (sfx == null && talksfxs[0] != null) { sfx = talksfxs[0].CreateInstance();

@@ -122,8 +122,10 @@ namespace TheJam
             boxes.Add(("Mother", new Textbox(new List<string>(ReadTextFile(@"dialooog\pinguin.txt").Split('&')), true, new[] { Content.Load<SoundEffect>(@"ljud\ljudeffekter\penguin\mainpenguin2") }, Content.Load<SpriteFont>(@"Fonts\Penguin"), this)));
             boxes.Add(("Child", new Textbox(new List<string>(ReadTextFile(@"dialooog\pinguin.txt").Split('&')), true, new[] { Content.Load<SoundEffect>(@"ljud\ljudeffekter\penguin\babypenguin") }, Content.Load<SpriteFont>(@"Fonts\Penguin"), this)));
             boxes.Add(("ocean", new Textbox(new List<string>(ReadTextFile(@"dialooog\Pingvin_babu.txt").Split('&')), true, placeHolderSounds, Content.Load<SpriteFont>(@"Fonts\BEARPAW"), this)));
-
-            boxes.Add(("cliff", new Textbox(new List<string>(new[] { "Thats seems unsteady..." }), true, placeHolderSounds, Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
+            boxes.Add(("Sarox", new Textbox(new List<string>(ReadTextFile(@"dialooog\Sarox.txt").Split('&')), true, new[] { Content.Load<SoundEffect>(@"ljud\ljudeffekter\dator") }, Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
+            boxes.Add(("bigD", new Textbox(new List<string>(ReadTextFile(@"dialooog\drake_stor.txt").Split('&')), true, new[] { Content.Load<SoundEffect>(@"ljud\ljudeffekter\dragon\dragon1") }, Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
+            
+            boxes.Add(("cliff", new Textbox(new List<string>(new[] { "Thats seems unsteady..." }), true, placeHolderSounds, Content.Load<SpriteFont>(@"Fonts\Penguin"), this)));
             boxes.Add(("ship", new Textbox(new List<string>(new[]
             { "The ship has seen better days|A lot better days", "Like wow, this is sooo bad", "This is worse then that time I made a game in 48hours", "Maybe I should look for those batteries" }), true, placeHolderSounds, Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
             boxes.Add(("Joe", new Textbox(new List<string>(new[] { ReadTextFile(@"dialooog\joe mama.txt") }), false, placeHolderSounds, Content.Load<SpriteFont>(@"Fonts\ComicSans"), this)));
@@ -135,7 +137,7 @@ namespace TheJam
             boxes.Add(("crobo", new Textbox(new List<string>(new[] { "HAT!\nHAT!\nHAT!|HAT!HAT!HAT!\nHAT!HAT!HAT!\nHAT!HAT!HAT!" }), true, new[] { Content.Load<SoundEffect>(@"ljud\ljudeffekter\crab2") }, Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
             boxes.Add(("frusenbat", new Textbox(new List<string>(ReadTextFile(@"dialooog\batteri text\Batteri i is.txt").Split('&')), false, placeHolderSounds, Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
             //boxes.Add(("bat", new Textbox(new List<string>(ReadTextFile(@"dialooog\batteri text\batteri upp plockad.txt").Split('&')), Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
-            boxes.Add(("drogo", new Textbox(new List<string>(new[] { "Dragon noises" }), true, placeHolderSounds, Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
+            boxes.Add(("drogo", new Textbox(new List<string>(ReadTextFile(@"dialooog\liten_drake.txt").Split('&')), true, new[] { Content.Load<SoundEffect>(@"ljud\ljudeffekter\dragon\dragon2") }, Content.Load<SpriteFont>(@"Fonts\Arial"), this)));
 
 
             normalPig = Content.Load<Texture2D>(@"Main pig\Standing still");
@@ -335,7 +337,7 @@ namespace TheJam
 
                         Joe.deactivated = false;
                         Joe = new TouchEntity(false, 2, 6, 3, 0, true, Content.Load<Texture2D>(@"Andra karaktärer\joe ner"), TouchEntity.Effects.trade,
-                            "Fruit^JoeFavour^Thanks for that|I will show you the way^I am really thirsty", this);
+                            "Juice^JoeFavour^Thanks for that|I will show you the way^I am really thirsty", this);
                         Joe.deactivated = false;
                         World[3, 2].entities.Add(Joe);
 
@@ -397,7 +399,8 @@ namespace TheJam
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.DimGray);
+            if(Menu)GraphicsDevice.Clear(Color.Turquoise);
+            else GraphicsDevice.Clear(Color.DimGray);
 
             _spriteBatch.Begin(samplerState: SamplerState.PointClamp);
             if (!Menu)
@@ -435,11 +438,11 @@ namespace TheJam
                 }
                 //if(currentBox != null)_spriteBatch.DrawString(fonts[0].Item2, currentBox.charCursor.ToString() + currentBox.interactionCount.ToString() + currentBox.milliMove.ToString(), Vector2.Zero, Color.Black);
 
-                for (int i = 0; i < achievments.Count; i++)
-                {
-
-                    _spriteBatch.DrawString(fonts[0].Item2, achievments[i], new Vector2(0, i * 32), Color.White);
-                }
+                //for (int i = 0; i < achievments.Count; i++)
+                //{
+                //
+                //    _spriteBatch.DrawString(fonts[0].Item2, achievments[i], new Vector2(0, i * 32), Color.White);
+                //}
             }
             else
             {
@@ -563,7 +566,8 @@ namespace TheJam
             v[0, 3].entities.Add(new TouchEntity(true, 1, 2, 1, true, Content.Load<Texture2D>(@"Andra ents\hatterihållare 1 batteri"), TouchEntity.Effects.Lock, "battery^battery^doneBats", this));
             v[0, 3].entities.Add(new TouchEntity(true, 1, 2, 1, true, Content.Load<Texture2D>(@"Andra ents\batterihållare 2 batterier"), TouchEntity.Effects.Lock, "battery^doneBats", this));
             v[0, 3].entities.Add(new TouchEntity(true, 1, 2, 1, true, Content.Load<Texture2D>(@"Andra ents\batterihållare full"), TouchEntity.Effects.Textbox, "doneBats", this));
-            v[0, 3].entities.Add(new TouchEntity(false, 3, 2, 4, 1, true, Content.Load<Texture2D>(@"Andra karaktärer\karen"), TouchEntity.Effects.Textbox, "karen", this));
+            v[0, 3].entities.Add(new TouchEntity(false, 3, 2, 4, 1, true, Content.Load<Texture2D>(@"Andra karaktärer\karen"), TouchEntity.Effects.Textbox, "Sarox", this));
+            v[0, 3].entities.Add(new TouchEntity(false, 2, 2, 4, 1, true, Content.Load<Texture2D>(@"mixer"), TouchEntity.Effects.trade, "Fruit^Juice^This is a nice mixer^*vrrrrrrrrr*|This is some nice juice", this));
 
             for (int i = 0; i < 8; i++) v[0, 3].entities.Add(new Entity(0, i, 0, true, nothing, this));
             for (int i = 0; i < 8; i++) v[0, 3].entities.Add(new Entity(i, 2, 0, true, nothing, this));
@@ -571,11 +575,24 @@ namespace TheJam
             for (int i = 0; i < 8; i++) if (i != 2) v[0, 3].entities.Add(new Entity(i, 7, 0, true, nothing, this));
 
 
-            v[4, 1].background = Content.Load<Texture2D>(@"Estetiska\öken bg 1,1");
+
+            v[4, 1].entities.Add(new TouchEntity(false, 2, 3, framerate: 4, 0, true,
+                 Content.Load<Texture2D>(@"Andra karaktärer\top left"), TouchEntity.Effects.Textbox, "bigD", this));
+            v[4, 1].entities.Add(new TouchEntity(false, 3, 3, framerate: 4, 0, true,
+                 Content.Load<Texture2D>(@"Andra karaktärer\top right"), TouchEntity.Effects.Textbox, "bigD", this));
+            v[4, 1].entities.Add(new TouchEntity(false, 2, 4, framerate: 4, 0, true,
+                 Content.Load<Texture2D>(@"Andra karaktärer\bottom left"), TouchEntity.Effects.Textbox, "bigD", this));
             v[4, 1].entities.Add(new TouchEntity(false, 3, 4, framerate: 4, 0, true,
-                 Content.Load<Texture2D>(@"Andra karaktärer\Drogo"), TouchEntity.Effects.Pickup, "fire^drogo", this));
-            v[4, 1].entities.Add(new TouchEntity(true, 3, 4, framerate: 4, 0, true,
+                 Content.Load<Texture2D>(@"Andra karaktärer\bottom right"), TouchEntity.Effects.Textbox, "bigD", this));
+
+
+            v[4, 1].background = Content.Load<Texture2D>(@"Estetiska\öken bg 1,1");
+            v[3, 1].entities.Add(new TouchEntity(false, 4, 6, framerate: 4, 0, true,
+                 Content.Load<Texture2D>(@"Andra karaktärer\Drogo"), TouchEntity.Effects.trade, "^fire^^Here take my fire|Its hot idfk", this));
+            v[3, 1].entities.Add(new TouchEntity(false, 4, 6, framerate: 4, 0, true,
                  Content.Load<Texture2D>(@"Andra karaktärer\Drogo"), TouchEntity.Effects.Textbox, "drogo", this));
+            //v[4, 1].entities.Add(new TouchEntity(true, 3, 4, framerate: 4, 0, true,
+            //     Content.Load<Texture2D>(@"Andra karaktärer\Drogo"), TouchEntity.Effects.Textbox, "drogo", this));
 
             for (int i = 0; i < 8; i++) v[4, 1].entities.Add(new TouchEntity(false, 7, i, 0, true, nothing, TouchEntity.Effects.Textbox, "cliff", this));
             for (int i = 0; i < 8; i++) v[4, 1].entities.Add(new TouchEntity(false, i, 7, 0, true, nothing, TouchEntity.Effects.Textbox, "ocean", this));
@@ -766,7 +783,7 @@ namespace TheJam
                 Content.Load<Texture2D>(@"Andra karaktärer\penguin"), TouchEntity.Effects.Textbox, "Penguin", this));
 
             v[2, 0].entities.Add(new TouchEntity(false, 1, 2, framerate: 6, 8, true,
-                Content.Load<Texture2D>(@"Andra karaktärer\crobo"), TouchEntity.Effects.trade, "Top-Hat^Claw^HAT|I Want HAT^HAT!!!", this));
+                Content.Load<Texture2D>(@"Andra karaktärer\crobo"), TouchEntity.Effects.trade, "Top-Hat^Claw^HAT|I Want HAT^HAT!!!^Here take claw, cus I ahve HAT!", this));
             v[2, 0].entities.Add(new TouchEntity(true, 1, 2, framerate: 6, 0, true,
                 Content.Load<Texture2D>(@"Andra ents\Crobo Hat"), TouchEntity.Effects.Textbox, "crobo", this));
             v[2, 0].entities.Add(new TouchEntity(true, 6, 2, framerate: 6, 0, false,
@@ -796,6 +813,8 @@ namespace TheJam
                 TouchEntity.Effects.Textbox, "frusenbat", this));
             v[0, 2].entities.Add(new TouchEntity(false, 5, 2, 0, true, Content.Load<Texture2D>(@"Andra ents\batteri"),
                 TouchEntity.Effects.Pickup, "battery", this));
+
+            
 
             v[1, 2].entities.Add(new TouchEntity(false, 4, 3, 0, true, Content.Load<Texture2D>(@"Andra ents\topphatt i is"),
                 TouchEntity.Effects.Lock, "fire^This seems too cold to acces^Top-Hat", this));

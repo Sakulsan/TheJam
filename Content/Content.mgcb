@@ -205,6 +205,30 @@
 /processorParam:TextureFormat=Color
 /build:Andra ents/topphatt.png
 
+#begin Andra karaktärer/bottom left.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/bottom left.png
+
+#begin Andra karaktärer/bottom right.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/bottom right.png
+
 #begin Andra karaktärer/Child  (1).png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -312,6 +336,30 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Andra karaktärer/Strong.png
+
+#begin Andra karaktärer/top left.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/top left.png
+
+#begin Andra karaktärer/top right.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Andra karaktärer/top right.png
 
 #begin black.png
 /importer:TextureImporter
@@ -678,6 +726,24 @@
 /processorParam:Quality=Best
 /build:ljud/ljudeffekter/crab2.wav
 
+#begin ljud/ljudeffekter/dator.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/dator.wav
+
+#begin ljud/ljudeffekter/dragon/dragon1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/dragon/dragon1.wav
+
+#begin ljud/ljudeffekter/dragon/dragon2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:ljud/ljudeffekter/dragon/dragon2.wav
+
 #begin ljud/ljudeffekter/drowning1.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
@@ -869,6 +935,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Main Pig/Standing still.png
+
+#begin mixer.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:mixer.png
 
 #begin Nothing.png
 /importer:TextureImporter

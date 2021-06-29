@@ -241,3 +241,11 @@ C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialoo
 C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\Pingvin_babu.txt
 C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\Pingvin_parent.txt
 C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\Pingvin_skämt_igloo.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\mixer.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra karaktärer\bottom left.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra karaktärer\bottom right.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra karaktärer\top left.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra karaktärer\top right.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\ljudeffekter\dator.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\ljudeffekter\dragon\dragon1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\ljudeffekter\dragon\dragon2.xnb
