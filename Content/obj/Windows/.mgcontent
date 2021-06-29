@@ -10,8 +10,14 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/batterihållare full.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/batterihållare tom.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/Crobo Hat.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/guldplatta.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/hatterihållare 1 batteri.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/isblock.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/kaktusfrukt.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/kaktusjuice.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/konstig_spak.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/napp_spak.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/Rullband.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/topphatt i is.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra ents/topphatt.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Andra karaktärer/Child  (1).png</File>
@@ -39,6 +45,9 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/snövärld bg 2,0.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/snövärld bg 2,1.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/snövärld bg 2,2.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/stoen bg 1,0.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/stoen bg 1,1.png</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/stoen bg 2,0.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Estetiska/tempe bg 3,2.png</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Fonts/Arial.spritefont</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/Fonts/BEARPAW.spritefont</File>
@@ -51,10 +60,9 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/John.jpg</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/crab1(do not use).wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/crab2.wav</File>
-    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/joe/joe1.wav</File>
-    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/joe/joe2.wav</File>
-    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/joe/joe3.wav</File>
-    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/joe/joe4.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/drowning1.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/joe/joe ice.wav</File>
+    <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/joe/silence.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/penguin/babypenguin.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/penguin/dadpenguin.wav</File>
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ljud/ljudeffekter/penguin/mainpenguin1.wav</File>
@@ -93,6 +101,14 @@
     <File>C:/Users/lukas/source/repos/TheJam/TheJam/Content/ui/ui/play.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

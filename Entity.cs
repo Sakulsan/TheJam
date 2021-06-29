@@ -105,7 +105,7 @@ namespace TheJam
             this.deactivated = deactivated;
         }
 
-        public void Touch(GameTime gt)
+        public void Touch(GameTime gt, Entity arv)
         {
             interactionCount++;
             switch (toucheffect)
@@ -118,14 +118,32 @@ namespace TheJam
                     break;
                 case Effects.Teleport:
                     break;
+                case Effects.trade:
+                    { 
+                    string[] s = data.Split('^');
+
+                    if (game.achievments.Contains(s[0]))
+                    {
+                        game.achievments.Add(s[1]);
+                        game.achievments.Remove(s[0]);
+
+                        game.currentBox = new Textbox(new List<string> { s[3] }, false, game.placeHolderSounds, game.fonts[0].Item2, game);
+                        game.cutsceneMode = true;
+                            deactivated = true;
+                           if(arv != null) arv.deactivated = false;
+                        }
+                    else
+                    {
+                        game.currentBox = new Textbox(new List<string>(new[] { s[2] }), false, game.placeHolderSounds, game.fonts[0].Item2, game);
+                        game.cutsceneMode = true;
+                    }
+            }
+                    break;
                 case Effects.Pickup:
                     { 
                     string[] s;
                     
                         s = data.Split('^');
-                        
-                    
-
                     game.achievments.Add(s[0]);
                     game.currentBox = new Textbox(new List<string>(new[] { "You have picked up: " + s[0] } ),false, game.placeHolderSounds, game.fonts[0].Item2,game);
                     deactivated = true;

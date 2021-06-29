@@ -220,3 +220,24 @@ C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\l
 C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\ljudeffekter\snösteg\variation 3 snösteg.xnb
 C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Main Pig\Drowning.xnb
 C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ui\ui\interact_maybe.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra ents\kaktusfrukt.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra ents\kaktusjuice.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra ents\konstig_spak.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra ents\napp_spak.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra ents\Rullband.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra karaktärer\joe ner.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra karaktärer\joe upp.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\stoen bg 1,0.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\stoen bg 1,1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Estetiska\stoen bg 2,0.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\ljudeffekter\joe\joe ice.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\Andra ents\guldplatta.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\ljudeffekter\drowning1.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\ljud\ljudeffekter\joe\silence.xnb
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\drake_stor.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\joe mama2.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\joe mama3.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\liten_drake.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\Pingvin_babu.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\Pingvin_parent.txt
+C:\Users\lukas\source\repos\TheJam\TheJam\bin\Debug\netcoreapp3.1\Content\dialooog\Pingvin_skämt_igloo.txt

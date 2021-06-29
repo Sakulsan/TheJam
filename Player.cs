@@ -5,6 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Audio;
 
 namespace TheJam
 {
@@ -29,7 +30,7 @@ namespace TheJam
         {
             if (!game.cutsceneMode)
             {
-                TouchEntity ice = (TouchEntity)enties.Find(test => test.sprite == game.ice && test.x == x && test.y == y && !test.deactivated);
+                TouchEntity ice = (TouchEntity)enties.Find(test => (test.sprite == game.ice || test.sprite == game.glow) && test.x == x && test.y == y && !test.deactivated);
             if (ice != null)
             {
                 if (ice.data == "true")
@@ -50,10 +51,13 @@ namespace TheJam
                     ice.deactivated = true;
                     game.World[0, 0].entities.Add(new Entity(ice.x, ice.y,0, true, game.nothing, game));
                     game.currentBox = new Textbox(new List<string> { "You have drowned", "You wake up inside the cloning vat of the ship" },false, game.placeHolderSounds, game.fonts[0].Item2, game);
-                    
+
+                        game.sfx = game.Content.Load<SoundEffect>(@"ljud\ljudeffekter\drowning1").CreateInstance();
+                        game.sfx.Play();
+
                     millismoved = 0;
                     game.cutsceneMode = true;
-                    game.blockCountDown = 1500;
+                    game.blockCountDown = 1800;
                         game.achievments.Add("Drowned");
                 }
             }
@@ -78,7 +82,19 @@ namespace TheJam
                 if (touched != null)
                 {
                     game.hud["E"].deactivated = false;
-                 if(newState.IsKeyDown(Keys.E) && !(oldState.IsKeyDown(Keys.E)))((TouchEntity)touched).Touch(gt);
+                    if (newState.IsKeyDown(Keys.E) && !(oldState.IsKeyDown(Keys.E))) {
+                        Entity arv;
+                        switch (touched.depth)
+                        {
+                            case 8:
+                                arv = game.World[2, 0].entities.Find(x => x is TouchEntity && ((TouchEntity)x).data == "crobo");
+                                break;
+                            default:
+                                arv = null;
+                                break;
+                        }
+                        ((TouchEntity)touched).Touch(gt,arv);
+                    }
                 }
                 else game.hud["E"].deactivated = true;
             
@@ -89,7 +105,7 @@ namespace TheJam
             oldState = newState;
             }
             else
-                game.hud["E"].deactivated = true;
+                if(game.hud.ContainsKey("E")) game.hud["E"].deactivated = true;
             base.Update(gt, enties);
             if (goalX != x || goalY != y)
             {

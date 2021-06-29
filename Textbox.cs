@@ -50,7 +50,8 @@ namespace TheJam
             game.cutsceneMode = true;
             if(interactionCount < says.Count - 1)
             sfx = talksfxs[0].CreateInstance();
-            sfx.IsLooped = false;
+            if (sfx == null) sfx = game.placeHolderSounds[0].CreateInstance();
+                sfx.IsLooped = false;
             sfx.Volume = 1f;
             sfx.Play();
             interactionCount++;
