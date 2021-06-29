@@ -173,3 +173,4 @@ C:\Users\lukas\source\repos\TheJam\TheJam\obj\Release\netcoreapp3.1\TheJam.Assem
 C:\Users\lukas\source\repos\TheJam\TheJam\obj\Release\netcoreapp3.1\TheJam.csproj.CopyComplete
 C:\Users\lukas\source\repos\TheJam\TheJam\obj\Release\netcoreapp3.1\TheJam.dll
 C:\Users\lukas\source\repos\TheJam\TheJam\obj\Release\netcoreapp3.1\TheJam.pdb
+C:\Users\lukas\source\repos\TheJam\TheJam\obj\Release\netcoreapp3.1\TheJam.csprojAssemblyReference.cache
